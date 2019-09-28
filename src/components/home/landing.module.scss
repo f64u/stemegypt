@@ -1,0 +1,48 @@
+@import "../common";
+
+section#landing {
+  height: calc(100vh - 45px);
+  background-color: #1c405c;
+  padding: 30px;
+
+  .container {
+    width: 97%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .content {
+    display: flex;
+    margin-top: 5vh;
+    margin-right: -50px;
+    align-items: center;
+    height: 230px;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      color: $header-white;
+      text-align: center;
+
+      .title {
+        font-family: $header-font;
+        font-weight: 600;
+        font-size: 3em;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        font-family: $body-font;
+        font-size: 1.7em;
+      }
+    }
+
+    .logo {
+      position: relative;
+      left: -38px;
+      top: -9px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
