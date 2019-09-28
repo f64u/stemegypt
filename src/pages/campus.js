@@ -1,14 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
-
-import "../index.css"
 import SiteMetadata from "../components/site-metadata"
 
-export default () => {
+const Campus = () => {
   return (
     <Layout>
-      <SiteMetadata pathname="/" />
-      <h2>This is the website</h2>
+      <SiteMetadata pathname="/campus" pageTitle="Campus" />
+
+      <h1>This is campus</h1>
     </Layout>
   )
 }
+
+export default Campus

@@ -1,14 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
-
-import "../index.css"
 import SiteMetadata from "../components/site-metadata"
 
-export default () => {
+const Records = () => {
   return (
     <Layout>
-      <SiteMetadata pathname="/" />
-      <h2>This is the website</h2>
+      <SiteMetadata pathname="/records" pageTitle="Competition Records" />
+
+      <h1>This is competition records</h1>
     </Layout>
   )
 }
+
+export default Records
