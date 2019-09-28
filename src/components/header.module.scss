@@ -1,17 +1,18 @@
 @import "_common";
 
-$header-background: #0a0d12;
-$stripes: #25282e;
+$header-background: #25282e;
+$stripes: #0a0d12;
+
 $faded-white: #aaa9a9;
 
 .header {
   font-family: $body-font;
   background: repeating-linear-gradient(
     45deg,
-    $header-background,
-    $header-background 0.1%,
+    $stripes,
     $stripes 0.1%,
-    $stripes 0.5%
+    $header-background 0.1%,
+    $header-background 0.5%
   );
   height: 45px;
 
@@ -44,7 +45,7 @@ $faded-white: #aaa9a9;
       text-transform: uppercase;
 
       a {
-        font-size: 0.63em;
+        font-size: 0.67em;
         font-weight: 600;
         color: $header-white;
         text-decoration: none;
@@ -76,7 +77,7 @@ $faded-white: #aaa9a9;
   .navBack {
     .faded a {
       color: $faded-white;
-      font-size: 0.625em;
+      font-size: 0.635em;
 
       &::after {
         background: $faded-white;
