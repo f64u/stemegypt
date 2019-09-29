@@ -1,0 +1,78 @@
+@import "../common";
+
+section#mission {
+  background: $header-white;
+  display: flex;
+  height: 73vh;
+  width: 100%;
+
+  .images {
+    height: 100%;
+    min-width: 45vw;
+    flex-grow: 1;
+    // position: relative;
+
+    // .image {
+    //   width: 350px;
+    //   height: 350px;
+    //   position: absolute;
+    //   top: 50%;
+    // }
+
+    // &:nth-child(1) {
+    //   background: grey;
+    //   left: 0;
+    // }
+    // &:nth-child(2) {
+    //   background: darkgrey;
+    //   left: 70%;
+    // }
+    // &:nth-child(3) {
+    //   background: darkslategrey;
+    //   left: 50%;
+    // }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    .text {
+      text-align: center;
+      font-size: 2.5em;
+      padding-right: 8px;
+    }
+
+    .cta {
+      font-size: 1.5em;
+      width: 6.6em;
+      height: 1.8em;
+      color: $header-text;
+      cursor: pointer;
+
+      margin: 2em 0 0 2em;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        margin-top: 4px;
+        height: 2.7px;
+        background: $header-text;
+        transition: width 0.3s;
+      }
+
+      &:hover::after,
+      &:focus::after {
+        width: 50%;
+      }
+
+      svg {
+        margin-left: 10px;
+        height: 0.8em;
+      }
+    }
+  }
+}

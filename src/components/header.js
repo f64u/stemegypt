@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import styles from "./header.module.scss"
-import logo from "../assets/logo.svg"
+import logo from "../assets/logo_small.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
@@ -13,7 +13,7 @@ const Header = () => {
       <div className={styles.container}>
         <h1 className={styles.logo}>
           <Link to="/">
-            <img src={logo} alt="STEM Egypt" width={45} />
+            <img src={logo} alt="STEM Egypt" width={40} />
           </Link>
         </h1>
 

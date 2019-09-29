@@ -6,6 +6,7 @@ import logo from "../../assets/logo.svg"
 const Landing = () => {
   return (
     <section id={styles.landing}>
+      <div className={styles.overlay}></div>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.text}>

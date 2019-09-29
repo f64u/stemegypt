@@ -2,10 +2,27 @@
 
 section#landing {
   height: calc(100vh - 45px);
-  background-color: #1c405c;
+  background-image: url("../../assets/images/IMG-20190910-WA0039.jpg");
+  background-position: center;
+  background-size: cover;
   padding: 30px;
+  position: relative;
+  display: flex;
+
+  .overlay {
+    position: absolute;
+    background: #173247;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
 
   .container {
+    z-index: 1;
     width: 97%;
     height: 100%;
     margin: 0 auto;

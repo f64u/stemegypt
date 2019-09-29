@@ -1,0 +1,104 @@
+@import "../common";
+
+section#overview {
+  background-image: url("../../assets/images/IMG-20190910-WA0039.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 60vh;
+
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .overlay {
+    position: absolute;
+    background: $header-text;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .text {
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+
+    .line {
+      z-index: 1;
+      flex-grow: 1;
+      height: 5px;
+      background: #ffffff;
+      margin-top: 1.8em;
+    }
+
+    .title {
+      z-index: 1;
+
+      font-size: 3.4em;
+      font-family: $header-font;
+      font-weight: 300;
+      line-height: 1.1em;
+
+      width: 60%;
+    }
+  }
+
+  .content {
+    z-index: 1;
+
+    width: 55%;
+    margin: 1.8em auto 0;
+
+    .subtext {
+      text-align: center;
+      font-size: 1.25em;
+      line-height: 1.3em;
+    }
+
+    .link {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+    }
+
+    .cta {
+      height: 1.3em;
+      width: 5.8em;
+      font-size: 1.5em;
+      cursor: pointer;
+      margin-top: 1.2em;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 0;
+        margin-top: 4px;
+        height: 2.7px;
+        background: #ffffff;
+        transition: width 0.3s;
+      }
+
+      &:hover::after,
+      &:focus::after {
+        width: 70%;
+      }
+
+      svg {
+        margin-left: 10px;
+        height: 0.8em;
+      }
+    }
+  }
+}

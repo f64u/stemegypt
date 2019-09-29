@@ -22,10 +22,14 @@ $faded-white: #aaa9a9;
     height: 100%;
   }
 
-  .logo img {
+  .logo { 
+    display: flex;
+    align-items: center;
+    img {
     max-width: 100%;
     height: auto;
-  }
+    margin-left: 5px;
+  }}
 
   .mainNav {
     width: calc(100% - 45px);
