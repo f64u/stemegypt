@@ -20,5 +20,12 @@ module.exports = {
         icon: "./src/assets/forfav.png",
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#e09f1f`,
+        showSpinner: false,
+      },
+    },
   ],
 }

@@ -52,11 +52,21 @@ $faded-white: #aaa9a9;
       a {
         font-size: 0.67em;
         font-weight: 500;
-        color: $header-white;
+        color: #bbb;
+        transition: color 0.3s ease;
+        &:hover {
+          color: $header-white;
+        }
         text-decoration: none;
         margin: 0 6px;
         display: inline-block;
+      }
+    }
 
+    .cta {
+      background: $header-text;
+      a {
+        color: $header-white;
         &::after {
           content: "";
           display: block;
@@ -73,16 +83,13 @@ $faded-white: #aaa9a9;
         }
       }
     }
-
-    .cta {
-      background: $header-text;
-    }
   }
 
   .navBack {
     .faded a {
       color: $faded-white;
       font-size: 0.635em;
+      z-index: 4;
 
       &::after {
         background: $faded-white;
