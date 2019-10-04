@@ -1,6 +1,7 @@
 @import "../common";
 
 section#landing {
+  overflow: hidden;
   height: calc(100vh - 45px);
   background-image: url("../../assets/images/IMG-20190910-WA0039.jpg");
   background-position: center;
