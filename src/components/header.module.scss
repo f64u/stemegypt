@@ -19,6 +19,10 @@ $faded-white: #aaa9a9;
   position: relative;
   z-index: 5;
 
+  @include xl {
+    font-size: 0.85em;
+  }
+
   .container {
     display: flex;
     height: 100%;
@@ -27,7 +31,7 @@ $faded-white: #aaa9a9;
 
   .hamburger {
     position: absolute;
-    top: 0.75rem;
+    top: 1rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -55,6 +59,10 @@ $faded-white: #aaa9a9;
       max-width: 100%;
       height: auto;
       margin-left: 5px;
+
+      @include le-lg {
+        margin: 5px;
+      }
     }
   }
 

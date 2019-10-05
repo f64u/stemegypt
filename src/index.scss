@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,600|Oswald:300,400,700&display=swap");
-
+@import "components/common";
 html,
 body,
 div,
@@ -451,4 +451,10 @@ textarea {
 }
 ::-moz-selection {
   background: rgba(#fff, 0.2);
+}
+
+@include le-lg {
+  body {
+    font-size: 0.7em;
+  }
 }

@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <ul className={styles.navFooter}>
-          <li className={styles.navLink}>
+          <li className={`${styles.navLink} ${styles.first}`}>
             <Link to="/">Home</Link>
           </li>
           <li className={styles.navLink}>
@@ -23,7 +23,7 @@ const Footer = () => {
           <li className={styles.navLink}>
             <Link to="/about/policy">Privacy Policy</Link>
           </li>
-          <li className={`${styles.navLink} ${styles.last}`}>
+          <li className={styles.navLink}>
             <Link to="/about/map">Site Map</Link>
           </li>
         </ul>

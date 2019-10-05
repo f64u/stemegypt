@@ -8,6 +8,10 @@ $faded-grey: #767373;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+
+  @include le-lg {
+    width: 95%;
+  }
 }
 
 .footer {
@@ -23,14 +27,18 @@ $faded-grey: #767373;
   }
 
   .navFooter {
+    @include le-lg {
+      width: 100%;
+    }
     display: flex;
     position: relative;
-    right: -16px;
+    left: -0.4em;
     list-style-type: none;
     justify-content: center;
+    flex-wrap: wrap;
 
     .navLink {
-      display: flex;
+      display: inline-flex;
       align-items: center;
       text-transform: uppercase;
 
@@ -40,19 +48,26 @@ $faded-grey: #767373;
         text-decoration: none;
         margin: 0 6px;
         display: inline-block;
+        @include le-lg {
+          font-size: 1.2em;
+        }
       }
 
-      &::after {
+      &::before {
         content: "|";
-        align-items: center;
+        align-self: center;
 
         font-size: 2em;
         font-weight: 700;
         margin: 2px 8px;
         visibility: hidden;
+
+        @include le-lg {
+          font-size: 1.5em;
+        }
       }
 
-      &:not(.last)::after {
+      &:not(.first)::before {
         visibility: visible;
       }
     }
@@ -82,6 +97,9 @@ $faded-grey: #767373;
 
     img {
       margin: 4px 0 0 4px;
+      @include le-lg {
+        width: 40px;
+      }
     }
   }
 }
