@@ -1,20 +1,31 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import styles from "./header.module.scss"
 import logo from "../assets/logo_small.png"
 
 const Header = () => {
+  const [isActive, setIsActive] = useState(false)
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <h1 className={styles.logo}>
           <Link to="/">
-            <img src={logo} alt="STEM Egypt" width={40} />
+            <img src={logo} alt="STEM Egypt" width={45} />
           </Link>
         </h1>
 
-        <nav className={styles.mainNav}>
+        <button
+          className={styles.hamburger}
+          onClick={() => setIsActive(!isActive)}
+        >
+          <span className={styles.line} />
+          <span className={styles.line} />
+          <span className={styles.line} />
+        </button>
+
+        <nav className={`${styles.mainNav} ${isActive ? styles.active : ""}`}>
           <ul className={styles.navLinks}>
             <li className={styles.navLink}>
               <Link to="/academics">Academics</Link>
