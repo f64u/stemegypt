@@ -29,7 +29,7 @@ const TabbedRecords = props => {
         <Stack index={currentItem}>
           {fisrtThirteen
             .map((competition, i) => {
-              x = i
+              n = i
               return (
                 <div className={styles.competition} key={`competition ${i}`}>
                   <OneCompetiton competition={competition} />
@@ -37,7 +37,7 @@ const TabbedRecords = props => {
               )
             })
             .concat([
-              <div className={styles.rest} key={`competition ${x + 1}`}>
+              <div className={styles.rest} key={`competition ${n + 1}`}>
                 {rest.map((competition, i) => (
                   <div
                     className={styles.competition}
