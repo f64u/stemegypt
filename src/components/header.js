@@ -16,14 +16,14 @@ const Header = () => {
           </Link>
         </h1>
 
-        <button
+        <div
           className={styles.hamburger}
           onClick={() => setIsActive(!isActive)}
         >
           <span className={styles.line} />
           <span className={styles.line} />
           <span className={styles.line} />
-        </button>
+        </div>
 
         <nav className={`${styles.mainNav} ${isActive ? styles.active : ""}`}>
           <ul className={styles.navLinks}>

@@ -1,0 +1,36 @@
+@import "../common";
+
+.oneYear {
+  width: 100%;
+  height: 100%;
+
+  .year {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 700;
+  }
+
+  .comment {
+    color: grey;
+    font-style: italic;
+  }
+
+  .title {
+    margin-bottom: 0.3em;
+  }
+
+  .teamTitle,
+  .namesTitle {
+    font-size: 1.05em;
+    margin-bottom: 0.2em;
+  }
+
+  ul {
+    text-indent: 2em;
+
+    li {
+      font-size: 1.05;
+      margin: 0.3em;
+    }
+  }
+}

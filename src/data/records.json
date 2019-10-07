@@ -1,0 +1,439 @@
+[
+  {
+    "name": "Physics International Olympiads",
+    "years": [
+      {
+        "year": "2015",
+        "nOfP": 4,
+        "comment": "First Egyptian Participation",
+        "team": false,
+        "names": [{ "names": [], "award": null }]
+      },
+      {
+        "year": "2016",
+        "nOfP": 5,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": [], "award": "2 Bronze Medals" }]
+      },
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Mohannad Elkholy"], "award": "Silver Medal" }]
+      },
+      {
+        "year": "2018",
+        "nOfP": 3,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Ahmed Haris"], "award": "Bronze Medal" },
+          { "names": ["Abdelrahman Adham"], "award": null },
+          { "names": ["Mustafa Ehab"], "award": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Biology International Olympiads",
+    "years": [
+      {
+        "year": "2016",
+        "nOfP": 2,
+        "comment": "First Egyptian Participation",
+        "team": false,
+        "names": [
+          { "names": ["Ahmed Ehab Gado"], "award": "Bronze Medal" },
+          { "names": ["Abdulrahman Ashraf"], "award": "Bronze Medal" }
+        ]
+      },
+      {
+        "year": "2019",
+        "nOfP": 4,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Abdulrahman Ali"], "award": null },
+          { "names": ["Omar Abdallah"], "award": null },
+          { "names": ["Youssef Abulzaher"], "award": null },
+          { "names": ["Youssef Yasser"], "award": null }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mathematics International Olympiads",
+    "years": [
+      {
+        "year": "2016",
+        "nOfP": 2,
+        "comment": "First Egyptian Participation",
+        "team": false,
+        "names": [{ "names": [], "award": null }]
+      },
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Abdelrahman Elawadly"], "award": null }]
+      },
+      {
+        "year": "2018",
+        "nOfP": 2,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Ahmed Salman"], "award": null },
+          { "names": ["John Gamal"], "award": null }
+        ]
+      },
+      {
+        "year": "2019",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Ahmed Mostafa Sharaf"], "award": null }]
+      }
+    ]
+  },
+  {
+    "name": "International Olympiad in Informatics",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Mohammed Adel"], "award": null }]
+      }
+    ]
+  },
+  {
+    "name": "Egyptian Olympiad for Informatics",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 2,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Mahmoud Adel"], "award": "Gold-global Finalist" },
+          { "names": ["Marwan Khaled"], "award": "Silver Medal" }
+        ]
+      },
+      {
+        "year": "2019",
+        "nOfP": 2,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Omar Yasser"], "award": "Bronze Medal" },
+          { "names": ["Youssab William"], "award": "Bronze Medal" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Arab Chemistry Olympiad",
+    "years": [
+      {
+        "year": "2014",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": [], "award": "Silver Medal" }]
+      },
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Youssef Saada"], "award": "Gold Medal" }]
+      }
+    ]
+  },
+  {
+    "name": "Mediterranean Youth Mathematical Championship",
+    "years": [
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [
+          {
+            "names": ["Mohamed Essam Lotfy"],
+            "award": "Bronze Medal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Genius Olympiad",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 3,
+        "comment": null,
+        "team": false,
+        "names": [
+          {
+            "names": ["Mustafa Ehab"],
+            "award": "Bronze Medal (Science Category) and Silver Medal (Writing Category)"
+          },
+          {
+            "names": ["Ahmed Adel"],
+            "award": "Bronze Medal (Science Category)"
+          },
+          {
+            "names": ["Mohamed Basuony"],
+            "award": "Bronze Medal (Science Categroy)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Egyptian Brain Bee",
+    "years": [
+      {
+        "year": "2016",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [{ "names": ["Abdullah Gaber"], "award": "Bronze Medal" }]
+      }
+    ]
+  },
+  {
+    "name": "INTEL ISEF",
+    "years": [
+      {
+        "year": "2017",
+        "nOfP": 2,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Mohamed Khaled"], "award": "International Finalist" },
+          { "names": ["Hossam Abozaid"], "award": "International Finalist" }
+        ]
+      },
+      {
+        "year": "2019",
+        "nOfP": 4,
+        "comment": null,
+        "team": false,
+        "names": [
+          { "names": ["Ahmed Abdelkader"], "award": "International Finalist" },
+          { "names": ["Omar Ezzat"], "award": "International Finalist" },
+          {
+            "names": ["Abdulrahman Soliman"],
+            "award": "International Finalist"
+          },
+          { "names": ["Abdulrahman Ashraf"], "award": "International Finalist" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "First Lego League",
+    "years": [
+      {
+        "year": "2015",
+        "nOfP": 1,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": [
+              "Mustafa Ehab",
+              "Kirollos Nader",
+              "John Gamal",
+              "Mahmoud Farouk"
+            ],
+            "award": "Bronze Medal"
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "nOfP": 1,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": [
+              "Moemen Emad",
+              "Ali Tarek",
+              "Ali Sameh",
+              "Mohamed Ezzat",
+              "Aser Abdelfatah",
+              "Omar Gaber",
+              "Seif Ahmed",
+              "Abdulrahman Labib"
+            ],
+            "award": "Research Category Winner"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nasa Space Apps Cairo",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 3,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": ["Ahmed Abdelkader", "Ali Krema", "Mazen Kazem"],
+            "award": "National Winners in Special Education Local Challenge"
+          },
+          {
+            "names": ["Amir Arafa", "Wael Gamal", "Omar Ayman"],
+            "award": "National Winners in “What The World Needs Now” category, “Look Globe-ally” Challenge"
+          },
+          {
+            "names": ["Mohammed Fahd", "Mohamed Hesham", "Ahmed Saad Shaarawy"],
+            "award": "National Winners in “A Universe Of Beauty And Wonder” category, “On The Shoulder Of Giants” Challenge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nasa Space Apps Alexandria",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 3,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": ["Abudllah Bahr", "Antony Emil"],
+            "award": "National Winners of the Best Junior Solution award in “A Universe Of Beauty And Wonder” category, “On The Shoulder Of Giants” Challenge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "LaunchX Startups Competitions",
+    "years": [
+      {
+        "year": "2019",
+        "nOfP": 1,
+        "comment": "First Participation in Africa and the Middle-East",
+        "team": false,
+        "names": [
+          {
+            "names": ["Abdulrahman Labib"],
+            "award": "Global Finalist, invited to attend MIT Demo Day"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Invention and Innovation competition in Canada Competition",
+    "years": [
+      {
+        "year": "2019",
+        "nOfP": 2,
+        "comment": null,
+        "team": false,
+        "names": [
+          {
+            "names": ["Amir Shawky"],
+            "award": "Gold Medal"
+          },
+          {
+            "names": ["Wael Gamal"],
+            "award": "Gold Medal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nawah Social Entrepreneurship Competition",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 1,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": ["Mohamed Khaled", "Mahmoud Saleh"],
+            "award": "Won"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "International Future City Competition",
+    "years": [
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": ["Zeyad Tolba", "Mahmoud Ayman"],
+            "award": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "International Minesweepers Competition",
+    "years": [
+      {
+        "year": "2017",
+        "nOfP": 1,
+        "comment": null,
+        "team": true,
+        "names": [
+          {
+            "names": [
+              "Muhammed Khaled",
+              "Ayman Gamal",
+              "Hazem Antar",
+              "Saif Selim",
+              "Muhammed Galal"
+            ],
+            "award": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Egyptian Robot Chalenge «Freestyle»",
+    "years": [
+      {
+        "year": "2018",
+        "nOfP": 1,
+        "comment": null,
+        "team": false,
+        "names": [
+          {
+            "names": ["Mohamed Osama"],
+            "award": "Golden Medal"
+          }
+        ]
+      }
+    ]
+  }
+]
