@@ -48,10 +48,7 @@ const Header = () => {
               </Link>
             </li>
             <li className={styles.navLink}>
-              <Link
-                to="/programs-participation"
-                activeClassName={styles.linkActive}
-              >
+              <Link to="/exchange" activeClassName={styles.linkActive}>
                 Exchange Programs Participation
               </Link>
             </li>

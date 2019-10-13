@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SiteMetadata from "../components/site-metadata"
 
-const ProgramsParticipation = () => {
+const Exchange = () => {
   return (
     <Layout>
       <SiteMetadata
@@ -15,4 +15,4 @@ const ProgramsParticipation = () => {
   )
 }
 
-export default ProgramsParticipation
+export default Exchange
