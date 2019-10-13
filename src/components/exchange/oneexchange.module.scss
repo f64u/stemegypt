@@ -1,0 +1,14 @@
+@import "../common";
+
+.oneExchange {
+  .exchangeTitle {
+    font-size: 1.5em;
+    font-family: $header-font;
+    color: $header-text;
+    padding-bottom: 0.2em;
+  }
+
+  .oneYear {
+    padding: 0.4em 0;
+  }
+}

@@ -1,4 +1,5 @@
 @import "../common";
+@import "../shared/oneyear_common";
 
 .oneYear {
   width: 100%;
@@ -6,43 +7,10 @@
 
   .year {
     display: inline-block;
-    font-size: 1.1em;
-    font-weight: 700;
   }
 
   .comment {
     color: grey;
     font-style: italic;
-  }
-
-  .title {
-    margin-bottom: 0.3em;
-  }
-
-  .teamTitle,
-  .namesTitle {
-    font-size: 1.05em;
-    margin-bottom: 0.2em;
-  }
-
-  ul {
-    margin: 0.5em 0;
-
-    li {
-      text-indent: 1em;
-      line-height: 1.4em;
-      font-size: 1.15em;
-      font-size: 1.05;
-      margin-left: 1em;
-      &::before {
-        position: relative;
-        left: -1.2em;
-        content: "\2022";
-        color: $header-text;
-        font-weight: bold;
-        display: inline-block;
-        width: 1em;
-      }
-    }
   }
 }

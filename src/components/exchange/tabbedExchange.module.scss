@@ -1,0 +1,19 @@
+@import "../common";
+
+.tabbedExchange {
+  display: flex;
+
+  .leftSide {
+    width: 15vw;
+    height: calc(100vh - 45px);
+  }
+
+  .rightSide {
+    .rightSideContent {
+      margin: 1em 2em;
+    }
+
+    flex-grow: 1;
+    height: calc(100vh - 45px);
+  }
+}
