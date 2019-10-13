@@ -26,11 +26,23 @@
   }
 
   ul {
-    text-indent: 2em;
+    margin: 0.5em 0;
 
     li {
+      text-indent: 1em;
+      line-height: 1.4em;
+      font-size: 1.15em;
       font-size: 1.05;
-      margin: 0.3em;
+      margin-left: 1em;
+      &::before {
+        position: relative;
+        left: -1.2em;
+        content: "\2022";
+        color: $header-text;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+      }
     }
   }
 }

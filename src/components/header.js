@@ -28,33 +28,50 @@ const Header = () => {
         <nav className={`${styles.mainNav} ${isActive ? styles.active : ""}`}>
           <ul className={styles.navLinks}>
             <li className={styles.navLink}>
-              <Link to="/academics">Academics</Link>
+              <Link to="/academics" activeClassName={styles.linkActive}>
+                Academics
+              </Link>
             </li>
             <li className={styles.navLink}>
-              <Link to="/campus">Campus</Link>
+              <Link to="/campus" activeClassName={styles.linkActive}>
+                Campus
+              </Link>
             </li>
             <li className={styles.navLink}>
-              <Link to="/community">School Community</Link>
+              <Link to="/community" activeClassName={styles.linkActive}>
+                School Community
+              </Link>
             </li>
             <li className={styles.navLink}>
-              <Link to="/records">Competition Records</Link>
+              <Link to="/records" activeClassName={styles.linkActive}>
+                Competition Records
+              </Link>
             </li>
             <li className={styles.navLink}>
-              <Link to="/programs-participation">
+              <Link
+                to="/programs-participation"
+                activeClassName={styles.linkActive}
+              >
                 Exchange Programs Participation
               </Link>
             </li>
             <li className={`${styles.navLink} ${styles.cta}`}>
-              <Link to="/organizations">Student Organizations and Events</Link>
+              <Link to="/organizations" activeClassName={styles.linkActive}>
+                Student Organizations and Events
+              </Link>
             </li>
           </ul>
 
           <ul className={styles.navBack}>
             <li className={`${styles.navLink} ${styles.faded}`}>
-              <Link to="/alumni">Alumni</Link>
+              <Link to="/alumni" activeClassName={styles.linkActive}>
+                Alumni
+              </Link>
             </li>
             <li className={`${styles.navLink} ${styles.faded}`}>
-              <Link to="/alumni/meet">Meet our Alumni</Link>
+              <Link to="/alumni/meet" activeClassName={styles.linkActive}>
+                Meet our Alumni
+              </Link>
             </li>
             <li className={`${styles.navLink} ${styles.cta} ${styles.search}`}>
               <div className={styles.searchContent}>

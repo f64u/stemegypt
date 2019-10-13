@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Yale Young Global Scholars (YYGS)",
+    "years": [
+      {
+        "year": "2018",
+        "names": ["Mostafa Sabra"]
+      },
+      {
+        "year": "2019",
+        "names": ["Antony Emil", "Omar Essam"]
+      }
+    ]
+  },
+  {
+    "name": "Yale Young African Scholars",
+    "years": [
+      {
+        "year": "2018",
+        "names": ["Ahmed Abdelkader"]
+      }
+    ]
+  },
+  {
+    "name": "BP Global STEM Academy",
+    "years": [
+      {
+        "year": "2018",
+        "names": ["Abdullah Gaber", "Zeyad Tolba"]
+      },
+      {
+        "year": "2019",
+        "names": ["Seif El-Maleh"]
+      }
+    ]
+  },
+  {
+    "name": "EducationUSA Academy at Johns Hopkins University",
+    "years": [{ "year": "2018", "names": ["Mazen Kazem"] }]
+  },
+  {
+    "name": "EducationUSA Academy at St. Cloud University",
+    "years": [
+      {
+        "year": "2019",
+        "names": ["Seif Ahmed"]
+      }
+    ]
+  },
+  {
+    "name": "EducationUSA Academy at University of Colorado Boulder",
+    "years": [
+      {
+        "year": "2019",
+        "names": ["Mohamed Salah"]
+      }
+    ]
+  },
+  {
+    "name": "International Deutschland Plus cultural exchange program",
+    "years": [
+      {
+        "year": "2017",
+        "names": ["Alaa Adel", "Mahmoud Farouk"]
+      },
+      {
+        "year": "2019",
+        "names": ["Abdullah Gaber", "Omar Essam"]
+      }
+    ]
+  },
+  {
+    "name": "IWP Between the Lines Program",
+    "years": [
+      {
+        "year": "2018",
+        "names": ["Abdulhalim Mirah"]
+      }
+    ]
+  },
+  {
+    "name": "MIT LaunchX Summer Program at Northwestern University",
+    "years": [
+      {
+        "year": "2018",
+        "names": ["Mustafa Ehab"]
+      }
+    ]
+  },
+  {
+    "name": "MIT LaunchX Summer Program at Massachusetts Institute of Technology",
+    "years": [
+      {
+        "year": "2019",
+        "names": ["Mohamed Soliman"]
+      }
+    ]
+  },
+  {
+    "name": "Michigan’s Technological University’s Engineering Scholars Program",
+    "years": [
+      {
+        "year": "2019",
+        "names": ["Yehia Abdelmoniem"]
+      }
+    ]
+  }
+]

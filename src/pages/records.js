@@ -12,7 +12,7 @@ const Records = () => {
   } = useStaticQuery(
     graphql`
       {
-        allFile {
+        allFile(filter: { name: { eq: "records" } }) {
           nodes {
             childrenRecordsJson {
               name

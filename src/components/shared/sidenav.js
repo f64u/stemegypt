@@ -8,7 +8,10 @@ const SideNav = props => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
   return (
-    <div className={styles.sideNav}>
+    <div
+      className={styles.sideNav}
+      style={props.sticky ? { position: "sticky", top: "1em" } : {}}
+    >
       {items.map((item, i) => {
         let list = [
           <button

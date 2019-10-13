@@ -1,16 +1,19 @@
+@import "../common";
+
 .tabbedRecords {
   display: flex;
 
   .leftSide {
     width: 15vw;
-    overflow-y: scroll;
     height: calc(100vh - 45px);
   }
 
   .rightSide {
-    padding: 2em;
+    .rightSideContent {
+      margin: 1em 2em;
+    }
+
     flex-grow: 1;
-    overflow-y: scroll;
     height: calc(100vh - 45px);
 
     .rest .competition {

@@ -76,6 +76,22 @@ $faded-white: #aaa9a9;
     flex-grow: 1;
   }
 
+  a {
+    transition: color 0.2s ease 0s;
+  }
+
+  a.linkActive {
+    color: white !important;
+    &::after {
+      content: "";
+      display: block;
+      margin-top: 3px;
+      height: 1px;
+      background: #bbb;
+      width: 100%;
+    }
+  }
+
   .navLinks,
   .navBack {
     display: flex;

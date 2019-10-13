@@ -1,0 +1,16 @@
+@import "../common";
+@import "./common_academics";
+
+.academic {
+  .content {
+    width: 67%;
+  }
+
+  .caption {
+    font-family: $header-font;
+    color: $header-text;
+    font-size: 1.7em;
+    width: 80%;
+    text-indent: 0;
+  }
+}

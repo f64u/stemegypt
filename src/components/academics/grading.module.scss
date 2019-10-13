@@ -1,0 +1,52 @@
+@import "../common";
+@import "./common_academics";
+
+$table-header: #061840;
+
+.grading {
+  .title {
+    margin-bottom: 0.8em;
+  }
+  table {
+    margin-bottom: 2em;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .leftSide {
+    order: 1;
+  }
+
+  .leftSide,
+  .rightSide {
+    width: 47%;
+  }
+
+  p {
+    text-indent: 0;
+  }
+
+  th,
+  .grade {
+    text-transform: uppercase;
+  }
+
+  th,
+  td {
+    padding: 0.4em 1em;
+    color: white;
+    border: white solid 2px;
+    text-align: center;
+  }
+
+  th {
+    background-color: $table-header;
+  }
+
+  td {
+    background-color: $header-text;
+  }
+}

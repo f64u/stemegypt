@@ -15,6 +15,14 @@ body {
   }
 }
 
+@mixin scrollHover {
+  transition: overflow-y 0.1s ease 0s;
+  overflow-y: hidden;
+  &:hover {
+    overflow-y: scroll;
+  }
+}
+
 @mixin gt-sm {
   @media (min-width: 577px) {
     @content;
