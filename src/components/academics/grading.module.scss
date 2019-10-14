@@ -5,8 +5,16 @@ $table-header: #061840;
 
 .grading {
   .title {
-    margin-bottom: 0.8em;
+    margin-bottom: 0.2em;
   }
+
+  .subtitle {
+    margin: 0.4em 0;
+    color: $header-text;
+    font-size: 1.8em;
+    font-family: $header-font;
+  }
+
   table {
     margin-bottom: 2em;
   }

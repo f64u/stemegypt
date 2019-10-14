@@ -5,10 +5,10 @@ import styles from "./grading.module.scss"
 const Grading = () => {
   return (
     <div className={styles.grading}>
-      <div className={styles.title}>Grading System</div>
-
+      <h3 className={styles.title}>Courses &amp; Grading Systems</h3>
       <div className={styles.content}>
         <div className={styles.leftSide}>
+          <h4 className={styles.subtitle}>Grading</h4>
           <p>
             STEM October follows a letter grading system starting from A and
             ending with D; students scoring bellow D fail the course and receive
@@ -59,6 +59,7 @@ const Grading = () => {
           </table>
         </div>
         <div className={styles.rightSide}>
+          <h4 className={styles.subtitle}>Courses</h4>
           <p>
             Most courses at STEM October are taught at Honors level; the school
             doesn’t offer AP course, however. All the courses taught in STEM

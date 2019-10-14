@@ -411,16 +411,6 @@ textarea {
   color: #222;
 }
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
 img {
   vertical-align: middle;
 }
@@ -444,13 +434,6 @@ textarea {
 
 * {
   box-sizing: border-box;
-}
-
-::selection {
-  background: rgba(#fff, 0.2);
-}
-::-moz-selection {
-  background: rgba(#fff, 0.2);
 }
 
 @include le-lg {
