@@ -1,9 +1,9 @@
 import React from "react"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import styles from "./mission.module.scss"
+import IconButton from "../shared/iconbutton"
 
 const MissionSection = () => {
   return (
@@ -20,8 +20,7 @@ const MissionSection = () => {
           humanity.
         </p>
         <div className={styles.cta}>
-          <span className={styles.ctaText}>mission</span>{" "}
-          <FontAwesomeIcon icon={faArrowRight} />
+          <IconButton text="mission" icon={faArrowRight} />
         </div>
       </div>
     </section>

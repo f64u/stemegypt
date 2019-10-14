@@ -25,37 +25,7 @@ section#mission {
     }
 
     .cta {
-      font-size: 1.5em;
-      width: 6.6em;
-      height: 1.8em;
-      color: $header-text;
-      cursor: pointer;
-
       margin: 2em 0 0 2em;
-
-      .ctaText {
-        display: inline-block;
-      }
-
-      .ctaText::after {
-        content: "";
-        display: block;
-        width: 0;
-        margin-top: 4px;
-        height: 2.7px;
-        background: $header-text;
-        transition: width 0.3s;
-      }
-
-      &:hover .ctaText::after,
-      &:focus .ctaText::after {
-        width: 100%;
-      }
-
-      svg {
-        margin-left: 10px;
-        height: 0.8em;
-      }
     }
   }
 }

@@ -1,8 +1,8 @@
 import React from "react"
 
 import styles from "./vision.module.scss"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import IconButton from "../shared/iconbutton"
 
 const VisionSection = () => {
   return (
@@ -19,8 +19,7 @@ const VisionSection = () => {
             applications, critical thinking, and pioneering spirit.
           </div>
           <div className={styles.cta}>
-            <span className={styles.ctaText}>our vision</span>{" "}
-            <FontAwesomeIcon icon={faArrowRight} />
+            <IconButton text="our vision" icon={faArrowRight} />
           </div>
         </div>
         <img src="https://via.placeholder.com/350x350" alt="illustration" />

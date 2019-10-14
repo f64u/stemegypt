@@ -74,34 +74,14 @@ section#overview {
     }
 
     .cta {
-      height: 1.3em;
-      width: 5.8em;
-      font-size: 1.5em;
-      cursor: pointer;
       margin-top: 1.2em;
 
-      .ctaText {
-        display: inline-block;
+      * {
+        color: white;
       }
 
-      .ctaText::after {
-        content: "";
-        display: block;
-        width: 0;
-        margin-top: 4px;
-        height: 2.7px;
-        background: #ffffff;
-        transition: width 0.3s;
-      }
-
-      &:hover .ctaText::after,
-      &:focus .ctaText::after {
-        width: 100%;
-      }
-
-      svg {
-        margin-left: 10px;
-        height: 0.8em;
+      *::after {
+        background: white;
       }
     }
   }

@@ -1,9 +1,9 @@
 import React from "react"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import styles from "./target.module.scss"
+import IconButton from "../shared/iconbutton"
 
 const TargetedStudentsSection = () => {
   return (
@@ -21,8 +21,7 @@ const TargetedStudentsSection = () => {
           Engineering, and Mathematics.
         </p>
         <div className={styles.cta}>
-          <span className={styles.ctaText}>learn more</span>{" "}
-          <FontAwesomeIcon icon={faArrowRight} />
+          <IconButton text="learn more" icon={faArrowRight} />
         </div>
       </div>
     </section>

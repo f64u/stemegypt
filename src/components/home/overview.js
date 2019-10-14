@@ -1,9 +1,9 @@
 import React from "react"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import styles from "./overview.module.scss"
+import IconButton from "../shared/iconbutton"
 
 const OverviewSection = () => {
   return (
@@ -25,8 +25,7 @@ const OverviewSection = () => {
         </div>
         <div className={styles.link}>
           <div className={styles.cta}>
-            <span className={styles.ctaText}>overview</span>{" "}
-            <FontAwesomeIcon icon={faArrowRight} />
+            <IconButton text="overview" icon={faArrowRight} />
           </div>
         </div>
       </div>
