@@ -53,7 +53,11 @@ section#vision {
       margin-left: 7em;
       cursor: pointer;
 
-      &::after {
+      .ctaText {
+        display: inline-block;
+      }
+
+      .ctaText::after {
         content: "";
         display: block;
         width: 0;
@@ -63,9 +67,9 @@ section#vision {
         transition: width 0.3s;
       }
 
-      &:hover::after,
-      &:focus::after {
-        width: 74.5%;
+      &:hover .ctaText::after,
+      &:focus .ctaText::after {
+        width: 100%;
       }
 
       svg {

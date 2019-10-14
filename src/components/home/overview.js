@@ -25,7 +25,8 @@ const OverviewSection = () => {
         </div>
         <div className={styles.link}>
           <div className={styles.cta}>
-            overview <FontAwesomeIcon icon={faArrowRight} />
+            <span className={styles.ctaText}>overview</span>{" "}
+            <FontAwesomeIcon icon={faArrowRight} />
           </div>
         </div>
       </div>

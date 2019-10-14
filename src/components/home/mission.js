@@ -20,7 +20,8 @@ const MissionSection = () => {
           humanity.
         </p>
         <div className={styles.cta}>
-          mission <FontAwesomeIcon icon={faArrowRight} />
+          <span className={styles.ctaText}>mission</span>{" "}
+          <FontAwesomeIcon icon={faArrowRight} />
         </div>
       </div>
     </section>

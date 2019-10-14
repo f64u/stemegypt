@@ -21,7 +21,8 @@ const TargetedStudentsSection = () => {
           Engineering, and Mathematics.
         </p>
         <div className={styles.cta}>
-          learn more <FontAwesomeIcon icon={faArrowRight} />
+          <span className={styles.ctaText}>learn more</span>{" "}
+          <FontAwesomeIcon icon={faArrowRight} />
         </div>
       </div>
     </section>

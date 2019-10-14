@@ -67,7 +67,11 @@ section#target {
 
     margin: 2em 0 0 2em;
 
-    &::after {
+    .ctaText {
+      display: inline-block;
+    }
+
+    .ctaText::after {
       content: "";
       display: block;
       width: 0;
@@ -77,9 +81,9 @@ section#target {
       transition: width 0.3s;
     }
 
-    &:hover::after,
-    &:focus::after {
-      width: 73%;
+    &:hover .ctaText::after,
+    &:focus .ctaText::after {
+      width: 100%;
     }
 
     svg {

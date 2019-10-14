@@ -19,10 +19,11 @@ const VisionSection = () => {
             applications, critical thinking, and pioneering spirit.
           </div>
           <div className={styles.cta}>
-            our vision <FontAwesomeIcon icon={faArrowRight} />
+            <span className={styles.ctaText}>our vision</span>{" "}
+            <FontAwesomeIcon icon={faArrowRight} />
           </div>
         </div>
-        <img src="http://via.placeholder.com/350x350" alt="illustration" />
+        <img src="https://via.placeholder.com/350x350" alt="illustration" />
       </div>
     </section>
   )
