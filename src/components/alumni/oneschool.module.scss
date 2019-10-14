@@ -1,0 +1,64 @@
+@import "../common";
+
+.schoolCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    width: 28%;
+    height: 100%;
+
+    .image {
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+      margin: 1em;
+      align-self: center;
+    }
+
+    .title {
+      font-family: $header-font;
+      font-size: 2em;
+      font-weight: 700;
+      padding: 0 1.2em;
+    }
+  }
+
+  .content {
+    width: 68%;
+    min-height: 200px;
+    background: $header-text;
+    border-radius: 20px;
+    box-shadow: 2px 8px 10px 2px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+    padding: 2em 0.2em;
+
+    .namesList {
+      margin: 1em 0;
+
+      .name {
+        font-size: 1.5em;
+        margin: 0.5em 0 0.5em 1.7em;
+
+        &::before {
+          position: relative;
+          content: "\2022";
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -0.5em;
+        }
+      }
+    }
+  }
+}

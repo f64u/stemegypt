@@ -1,0 +1,191 @@
+[
+  {
+    "school": "Massachusetts Institute of Technology",
+    "imageName": "mit.png",
+    "names": ["Mohannad Elkholy"]
+  },
+  {
+    "school": "University of Pennsylvaniya",
+    "imageName": "upenn.jpg",
+    "names": ["Ali Krema"]
+  },
+  {
+    "school": "Stanford University",
+    "imageName": "stanford.jpg",
+    "names": ["Mostafa Abdelbary", "Marawan Hassanien"]
+  },
+  {
+    "school": "Rice University",
+    "imageName": "rice.jpg",
+    "names": ["Mahmoud Farouk"]
+  },
+  {
+    "school": "Washington University in St. Louis",
+    "imageName": "wahu.jpg",
+    "names": ["Mohamed Ramadan"]
+  },
+  {
+    "school": "John's Hopkins University",
+    "imageName": "hopkins.jpg",
+    "names": ["Mazen Kazem"]
+  },
+  {
+    "school": "The University of Chicago",
+    "imageName": "uchicgo.jpg",
+    "names": ["Abdelrahman Khaled"]
+  },
+  {
+    "school": "Tufts University",
+    "imageName": "tufts.jpg",
+    "names": ["Ahmed Gado"]
+  },
+  {
+    "school": "Swarthmore University",
+    "imageName": "swarthmore.jpg",
+    "names": ["Amro Samy", "Ibrahim Hassona"]
+  },
+  {
+    "school": "Haverford College",
+    "imageName": "hoverford.jpg",
+    "names": ["Mohamed Ashraf", "Joseph Nabil"]
+  },
+  {
+    "school": "University of Rochester",
+    "imageName": "rochester.jpg",
+    "names": [
+      "Ahmed Adel",
+      "Ebram Adel",
+      "Ihab Anas",
+      "Abdelrahman Abdelkader",
+      "Ahmed Elgazzar",
+      "Abdelrahman Yousef"
+    ]
+  },
+  {
+    "school": "Claremont Mckenna College",
+    "imageName": "claremont.jpg",
+    "names": ["Mohamed Moussa"]
+  },
+  {
+    "school": "Davidson College",
+    "imageName": "davidson.jpg",
+    "names": ["Basel Hamdy"]
+  },
+  {
+    "school": "Kenyon College",
+    "imageName": "kenyon.jpg",
+    "names": ["Kirollos Nader", "Abdelhalim Mirah", "Mohamed Habashy"]
+  },
+  {
+    "school": "Franklin & Marshall College",
+    "imageName": "fraAmar.jpg",
+    "names": ["Omar Tamer"]
+  },
+  {
+    "school": "Minerva Schools at KGI",
+    "imageName": "minerva.jpg",
+    "names": ["Antoon Haleem"]
+  },
+  {
+    "school": "Washington and Lee University",
+    "imageName": "washAlee.jpg",
+    "names": ["Abdelrahman Hesham"]
+  },
+  {
+    "school": "Colgate University",
+    "imageName": "colgate.jpg",
+    "names": ["Ziad Abd Elnasser"]
+  },
+  {
+    "school": "Whitman College",
+    "imageName": "whitman.jpg",
+    "names": ["Ahmed Abdelkader", "Abdelrahman Elawadly"]
+  },
+  {
+    "school": "Connecticut College",
+    "imageName": "connecticut.jpg",
+    "names": ["Mustafa Sabra"]
+  },
+  {
+    "school": "SEWANEE The University of the South",
+    "imageName": "sewanee.jpg",
+    "names": ["Alaa Adel", "Seif Selim"]
+  },
+  {
+    "school": "Iowa State University",
+    "imageName": "iowa.jpg",
+    "names": ["Ahmed Gamal"]
+  },
+  {
+    "school": "Innopolis University",
+    "imageName": "innopolis.jpg",
+    "names": ["Mahmoud Adel", "Mustafa Osama"]
+  },
+  {
+    "school": "Nagoya University",
+    "imageName": "nagoya.jpg",
+    "names": ["Eslam Sabry"]
+  },
+  {
+    "school": "Trinity College",
+    "imageName": "trinity.jpg",
+    "names": ["Ahmed Eldmerdash"]
+  },
+  {
+    "school": "University of Nebraska-Lincoln",
+    "imageName": "nebraska.jpg",
+    "names": ["Hamza Mostafa", "Abdelrahman Rashed"]
+  },
+  {
+    "school": "Oberlin College",
+    "imageName": "oberlin.jpg",
+    "names": ["Ammar Mohamed"]
+  },
+  {
+    "school": "Debreceni Egyetem (Hungary)",
+    "imageName": "debreceni.jpg",
+    "names": ["Omar Ehab", "Amr Essam"]
+  },
+  {
+    "school": "ELTE - Eötvös Loránd Tudományegyetem",
+    "imageName": "elte.jpg",
+    "names": ["Shady Essam"]
+  },
+  {
+    "school": "American University in Bulgaria",
+    "imageName": "aug.jpg",
+    "names": ["Abdelrahman Sameh"]
+  },
+  {
+    "school": "University of Evansville",
+    "imageName": "evansville.jpg",
+    "names": ["Sayed Salah", "Ahmed Othman"]
+  },
+  {
+    "school": "Drexel University",
+    "imageName": "drexel.jpg",
+    "names": ["Mostafa El-Daify", "Saif Elkhamry"]
+  },
+  {
+    "school": "Wagner College",
+    "imageName": "wagner.jpg",
+    "names": ["Mohamed Lotfy"]
+  },
+  {
+    "school": "American University in Cairo (AUC)",
+    "imageName": "auc.jpg",
+    "names": [
+      "John William",
+      "John Gamal",
+      "Mohamed Ayman",
+      "Mohamed Basuony",
+      "Abdelrahman Fathi",
+      "Abdelhaleem Saied",
+      "Abdelrahman Adham",
+      "Mohamed Taha",
+      "Abdallah Taha",
+      "Ahmed Ebrahim",
+      "Omar Elswedy"
+    ]
+  }
+]

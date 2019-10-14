@@ -34,5 +34,11 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/assets/images/colleges`,
+      },
+    },
   ],
 }
