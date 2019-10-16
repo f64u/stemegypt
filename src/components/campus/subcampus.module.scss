@@ -1,0 +1,98 @@
+@import "../common";
+
+.campus {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.2em;
+
+  .tabset {
+    margin-left: 2em;
+
+    & > input[type="radio"] {
+      position: absolute;
+      left: -200vw;
+    }
+
+    & > label {
+      position: relative;
+      display: inline-block;
+      padding: 15px 15px 25px;
+      border: 1px solid transparent;
+      border-bottom: 0;
+      cursor: pointer;
+      font-weight: 600;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        width: 22px;
+        height: 4px;
+        background: #8d8d8d;
+      }
+    }
+
+    & > input.active + label {
+      border-color: #ccc;
+      border-bottom: 1px solid #fff;
+      margin-bottom: -1px;
+    }
+
+    & > label:hover,
+    & > input:focus + label {
+      color: $header-text;
+    }
+
+    & > label:hover::after,
+    & > input:focus + label::after,
+    & > input.active + label::after {
+      background: $header-text;
+    }
+  }
+
+  .border {
+    border-top: 1px solid #ccc;
+  }
+
+  p {
+    margin: 0.8em 0;
+    line-height: 1.3em;
+  }
+
+  .header {
+    width: 80%;
+    margin: 1em 2em 2em;
+
+    .pretext {
+      color: $header-text;
+      font-family: $header-font;
+      font-size: 1.2em;
+    }
+  }
+
+  section:not(#labs) .content,
+  section .labsText {
+    width: 80%;
+  }
+
+  section:not(#labs) .content {
+    margin: 2em;
+  }
+
+  section#labs .labsText {
+    margin: 2em;
+  }
+
+  .labs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .lab {
+      width: 16.5%;
+      margin: 0.9em;
+    }
+  }
+}
