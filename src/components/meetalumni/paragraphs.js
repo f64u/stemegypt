@@ -9,7 +9,7 @@ const Paragraphs = () => {
       <div className={styles.oneParagraph}>
         <OneParagraph
           name="Mustafa Ehab"
-          imgSrc={require("../../assets/images/colleges/mit.png")}
+          imgSrc={require("../../assets/images/people/ehab.png")}
         >
           <div className={styles.content}>
             <p className={styles.paragraph}>
@@ -65,7 +65,7 @@ const Paragraphs = () => {
       <div className={styles.oneParagraph}>
         <OneParagraph
           name="Mohamed Ramadan"
-          imgSrc={require("../../assets/images/colleges/mit.png")}
+          imgSrc={require("../../assets/images/people/ramadan.png")}
           isLeft
         >
           <div className={styles.content}>
