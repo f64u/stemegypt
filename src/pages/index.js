@@ -1,8 +1,8 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/shared/layout"
 
 import "../index.scss"
-import SiteMetadata from "../components/site-metadata"
+import SiteMetadata from "../components/shared/site-metadata"
 import Landing from "../components/home/landing"
 import TheName from "../components/home/thename"
 import VisionSection from "../components/home/vision"

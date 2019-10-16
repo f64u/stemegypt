@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../../components/layout"
-import SiteMetadata from "../../components/site-metadata"
+import Layout from "../../components/shared/layout"
+import SiteMetadata from "../../components/shared/site-metadata"
 
 const Vision = () => {
   return (

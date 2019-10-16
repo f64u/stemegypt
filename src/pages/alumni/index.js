@@ -2,8 +2,8 @@ import React from "react"
 
 import { useStaticQuery, graphql } from "gatsby"
 
-import Layout from "../../components/layout"
-import SiteMetadata from "../../components/site-metadata"
+import Layout from "../../components/shared/layout"
+import SiteMetadata from "../../components/shared/site-metadata"
 import Schools from "../../components/alumni/schools"
 
 const Alumni = () => {

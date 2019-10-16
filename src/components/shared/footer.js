@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import styles from "./footer.module.scss"
 
-import logo from "../assets/logo.svg"
-import mirus from "../assets/icons/mirus.svg"
+import logo from "../../assets/logo.svg"
+import mirus from "../../assets/icons/mirus.svg"
 
 const Footer = () => {
   return (

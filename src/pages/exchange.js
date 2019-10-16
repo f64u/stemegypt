@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-import Layout from "../components/layout"
-import SiteMetadata from "../components/site-metadata"
+import Layout from "../components/shared/layout"
+import SiteMetadata from "../components/shared/site-metadata"
 import TabbedExchange from "../components/exchange/tabbedExchange"
 
 const Exchange = () => {

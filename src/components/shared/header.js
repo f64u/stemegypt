@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import styles from "./header.module.scss"
-import logo from "../assets/logo_small.png"
+import logo from "../../assets/logo_small.png"
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false)
