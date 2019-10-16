@@ -6,7 +6,7 @@
   },
   {
     "school": "University of Pennsylvaniya",
-    "imageName": "upenn.jpg",
+    "imageName": "upenn.png",
     "names": ["Ali Krema"]
   },
   {
@@ -16,27 +16,27 @@
   },
   {
     "school": "Rice University",
-    "imageName": "rice.jpg",
+    "imageName": "rice.png",
     "names": ["Mahmoud Farouk"]
   },
   {
     "school": "Washington University in St. Louis",
-    "imageName": "wahu.jpg",
+    "imageName": "washu.jpg",
     "names": ["Mohamed Ramadan"]
   },
   {
     "school": "John's Hopkins University",
-    "imageName": "hopkins.jpg",
+    "imageName": "hopkins.png",
     "names": ["Mazen Kazem"]
   },
   {
     "school": "The University of Chicago",
-    "imageName": "uchicgo.jpg",
+    "imageName": "uchicago.jpg",
     "names": ["Abdelrahman Khaled"]
   },
   {
     "school": "Tufts University",
-    "imageName": "tufts.jpg",
+    "imageName": "tufts.png",
     "names": ["Ahmed Gado"]
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "school": "Haverford College",
-    "imageName": "hoverford.jpg",
+    "imageName": "haverford.jpg",
     "names": ["Mohamed Ashraf", "Joseph Nabil"]
   },
   {
@@ -73,7 +73,7 @@
   },
   {
     "school": "Kenyon College",
-    "imageName": "kenyon.jpg",
+    "imageName": "kenyon.png",
     "names": ["Kirollos Nader", "Abdelhalim Mirah", "Mohamed Habashy"]
   },
   {
@@ -103,7 +103,7 @@
   },
   {
     "school": "Connecticut College",
-    "imageName": "connecticut.jpg",
+    "imageName": "connecticut.png",
     "names": ["Mustafa Sabra"]
   },
   {
@@ -113,7 +113,7 @@
   },
   {
     "school": "Iowa State University",
-    "imageName": "iowa.jpg",
+    "imageName": "iowa.png",
     "names": ["Ahmed Gamal"]
   },
   {
@@ -123,7 +123,7 @@
   },
   {
     "school": "Nagoya University",
-    "imageName": "nagoya.jpg",
+    "imageName": "nagoya.png",
     "names": ["Eslam Sabry"]
   },
   {
@@ -138,7 +138,7 @@
   },
   {
     "school": "Oberlin College",
-    "imageName": "oberlin.jpg",
+    "imageName": "oberlin.png",
     "names": ["Ammar Mohamed"]
   },
   {
@@ -163,7 +163,7 @@
   },
   {
     "school": "Drexel University",
-    "imageName": "drexel.jpg",
+    "imageName": "drexel.png",
     "names": ["Mostafa El-Daify", "Saif Elkhamry"]
   },
   {

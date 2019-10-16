@@ -15,7 +15,7 @@ const OneSchool = props => {
         <img
           className={styles.image}
           src={
-            require("../../assets/images/colleges/mit.png") ||
+            // require("../../assets/images/colleges/mit.png") ||
             require(`../../assets/images/colleges/${school.imageName}`)
           }
           alt={school.school}
