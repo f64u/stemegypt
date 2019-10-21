@@ -1,0 +1,73 @@
+.event,
+.club {
+  margin-bottom: 5px;
+
+  .head {
+    background: $header-text;
+    color: white;
+    padding: 0.4em 1em;
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: $header-font;
+
+    .icon {
+      cursor: pointer;
+    }
+  }
+
+  .content {
+    border: 3px solid $header-text;
+  }
+
+  .portion {
+    padding: 0.4em;
+
+    .subtitle {
+      margin: 0.4em 0 0.2em 1em;
+
+      font-size: 1.2em;
+      font-weight: 600;
+      color: $header-text;
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 1em;
+        height: 3px;
+        background: $header-text;
+        left: -1.4em;
+      }
+    }
+
+    .text {
+      margin: 0.5em 1em;
+    }
+
+    ul {
+      li {
+        margin: 0.4em 0 0 2em;
+        &::before {
+          position: relative;
+          left: -0.7em;
+          content: "\2022";
+          color: $header-text;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+        }
+      }
+    }
+
+    .text,
+    ul li {
+      font-size: 1.2em;
+      line-height: 1.3em;
+    }
+  }
+}

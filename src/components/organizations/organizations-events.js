@@ -4,8 +4,6 @@ import styles from "./organizations-events.module.scss"
 import SideNav from "../shared/sidenav"
 import Stack from "../shared/stack"
 
-import { Scrollbars } from "react-custom-scrollbars"
-
 import StudentUnion from "./student-union"
 import Clubs from "./clubs"
 import Events from "./events"
@@ -25,15 +23,11 @@ const OrganizationsEvents = () => {
         </SideNav>
       </div>
       <div className={styles.rightSide}>
-        <Scrollbars autoHide>
-          <div className={styles.rightSideContent}>
-            <Stack index={index}>
-              <StudentUnion />
-              <Events />
-              <Clubs />
-            </Stack>
-          </div>
-        </Scrollbars>
+        <Stack index={index}>
+          <StudentUnion />
+          <Events />
+          <Clubs />
+        </Stack>
       </div>
     </div>
   )

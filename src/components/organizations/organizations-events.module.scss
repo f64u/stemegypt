@@ -1,15 +1,11 @@
 .organizationsEvents {
   display: flex;
-  height: calc(100vh - 45px);
 
   .leftSide {
     padding: 1em 0 0 1em;
   }
   .rightSide {
     flex: 1;
-
-    .rightSideContent {
-      margin: 1em 2em;
-    }
+    margin: 1em 2em;
   }
 }
