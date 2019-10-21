@@ -1,22 +1,15 @@
-@import "../shared/common";
-
-.tabbedRecords {
+.organizationsEvents {
   display: flex;
   height: calc(100vh - 45px);
 
   .leftSide {
-    width: 15vw;
+    padding: 1em 0 0 1em;
   }
-
   .rightSide {
+    flex: 1;
+
     .rightSideContent {
       margin: 1em 2em;
-    }
-
-    flex-grow: 1;
-
-    .rest .competition {
-      margin: 1em 0;
     }
   }
 }

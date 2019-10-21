@@ -1,0 +1,68 @@
+@import "../shared/common";
+
+.studentUnion {
+  p,
+  ul li {
+    font-size: 1.15em;
+    line-height: 1.4em;
+  }
+
+  ul {
+    margin: 0.2em 0;
+    li {
+      text-indent: 1em;
+      margin-left: 1em;
+      &::before {
+        position: relative;
+        left: -2em;
+        content: "\2022";
+        color: $header-text;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+      }
+    }
+  }
+
+  .title {
+    font-family: $header-font;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin: 0.6em 0;
+  }
+
+  .people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+
+      .person {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.7em 2em;
+
+        img {
+          width: 140px;
+          object-fit: cover;
+          border-radius: 50%;
+          box-shadow: 2px 5px 7px 0px rgba(34, 106, 161, 0.2);
+        }
+
+        .name {
+          padding: 0.5em 0;
+          font-size: 1em;
+          font-weight: 600;
+        }
+
+        .occupiance {
+          font-size: 0.9em;
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+    }
+  }
+}
