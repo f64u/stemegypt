@@ -1,2 +1,22 @@
 @import "../shared/common";
 @import "./common_organizations";
+
+.clubs {
+  .club {
+    .subtext {
+      margin: 0.7em 0.5em;
+      font-style: italic;
+      font-weight: 800;
+      font-size: 1.2em;
+    }
+
+    ol > li {
+      list-style: decimal;
+      margin-left: 2em;
+      line-height-step: 1em;
+      > ul > li {
+        font-size: 0.9em;
+      }
+    }
+  }
+}
