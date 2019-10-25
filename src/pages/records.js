@@ -1,8 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+
+import recordsImage from "../assets/landings/records.jpg"
+
 import Layout from "../components/shared/layout"
 import SiteMetadata from "../components/shared/site-metadata"
 import TabbedRecords from "../components/records/tabbedRecords"
+import LandingImage from "../components/shared/landingimage"
 
 const Records = () => {
   const {
@@ -37,6 +41,11 @@ const Records = () => {
     <Layout>
       <SiteMetadata pathname="/records" pageTitle="Competition Records" />
 
+      <LandingImage
+        imgSrc={recordsImage}
+        title="Competition Records"
+        subtitle="Records achieved by individuals and the school"
+      />
       <TabbedRecords competitions={data} />
     </Layout>
   )
