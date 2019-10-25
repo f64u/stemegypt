@@ -1,0 +1,44 @@
+@import "./common";
+
+.landingImage {
+  width: 100vw;
+  height: calc(90vh - 45px);
+  max-width: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+
+  .text {
+    position: absolute;
+    left: 4em;
+    bottom: 3em;
+    z-index: 2;
+
+    .title {
+      font-family: $header-font;
+      font-size: 3.5em;
+      color: #fff;
+    }
+
+    .subtitle {
+      color: $header-text;
+      margin-top: 0.7em;
+      font-size: 1.5em;
+      filter: brightness(1.8);
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: #061f4b;
+    opacity: 0.8;
+  }
+}

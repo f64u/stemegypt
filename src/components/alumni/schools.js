@@ -8,10 +8,6 @@ const Schools = props => {
 
   return (
     <div className={styles.schools}>
-      <div className={styles.header}>
-        <h1 className={styles.pageTitle}>Alumni</h1>
-        <h2 className={styles.subtitle}>Our alumni here and overseas</h2>
-      </div>
       {schools.map((school, i) => (
         <div className={styles.school} key={`school ${i}`}>
           <OneSchool school={school} isLeft={i % 2 === 0} />

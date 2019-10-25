@@ -2,9 +2,12 @@ import React from "react"
 
 import { useStaticQuery, graphql } from "gatsby"
 
+import alumniImage from "../../assets/landings/alumni.jpg"
+
 import Layout from "../../components/shared/layout"
 import SiteMetadata from "../../components/shared/site-metadata"
 import Schools from "../../components/alumni/schools"
+import LandingImage from "../../components/shared/landingimage"
 
 const Alumni = () => {
   const {
@@ -29,6 +32,11 @@ const Alumni = () => {
     <Layout>
       <SiteMetadata pathname="/alumni" pageTitle="Alumni" />
 
+      <LandingImage
+        imgSrc={alumniImage}
+        title="Alumni"
+        subtitle="Our Alumni here and overseas"
+      />
       <Schools schools={data} />
     </Layout>
   )

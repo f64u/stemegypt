@@ -1,22 +1,7 @@
 @import "../shared/common";
 
 .schools {
-  .header {
-    margin: 2em;
-  }
-
-  .pageTitle {
-    font-family: $header-font;
-    font-size: 3.2em;
-    margin-bottom: 0.4em;
-  }
-
-  .subtitle {
-    color: $header-text;
-    font-size: 1.4em;
-  }
-
   .school {
-    margin: 5em 2em;
+    margin: 2em 0;
   }
 }
