@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-import recordsImage from "../assets/landings/records.jpg"
+import recordsImage from "../assets/images/landings/records.jpg"
 
 import Layout from "../components/shared/layout"
 import SiteMetadata from "../components/shared/site-metadata"

@@ -2,7 +2,7 @@ import React from "react"
 
 import { useStaticQuery, graphql } from "gatsby"
 
-import alumniImage from "../../assets/landings/alumni.jpg"
+import alumniImage from "../../assets/images/landings/alumni.jpg"
 
 import Layout from "../../components/shared/layout"
 import SiteMetadata from "../../components/shared/site-metadata"
