@@ -3,12 +3,13 @@
     margin: 5em 2em;
   }
 
-  .content {
-    margin: 0 1.5em;
-  }
   .paragraph {
-    font-size: 1.15em;
-    margin: 0.8em 0;
-    line-height: 1.1em;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    word-spacing: 0.1em;
+  }
+
+  .paragraph + .paragraph {
+    margin-top: 0.5em;
   }
 }
