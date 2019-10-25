@@ -18,8 +18,8 @@
     font-size: 1.15em;
   }
 
-  p {
-    margin-bottom: 1em;
+  p + p {
+    margin-top: 1em;
   }
 
   ul {

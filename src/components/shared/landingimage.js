@@ -11,7 +11,7 @@ const LandingImage = ({ title, subtitle, imgSrc }) => {
       <div className={styles.overlay}></div>
       <div className={styles.text}>
         {title && <h1 className={styles.title}>{title}</h1>}
-        {subtitle && <h2 className={styles.subtitle}>{subtitle}</h2>}
+        {subtitle && <p className={styles.subtitle}>{subtitle}</p>}
       </div>
     </div>
   )
