@@ -1,7 +1,5 @@
 @import "./common";
 
-$height: calc(90vh - 45px);
-
 .landingImage {
   width: 100vw;
   height: 85vh;
@@ -9,8 +7,12 @@ $height: calc(90vh - 45px);
   position: relative;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+
+  @include le-lg {
+    height: 70vh;
+  }
 
   .text {
     position: absolute;

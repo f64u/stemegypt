@@ -11,6 +11,19 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        features: {
+          auth: false,
+          database: false,
+          firestore: true,
+          storage: false,
+          messaging: false,
+          functions: true,
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `STEM High School`,

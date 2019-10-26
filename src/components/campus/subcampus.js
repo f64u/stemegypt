@@ -6,8 +6,8 @@ import styles from "./subcampus.module.scss"
 import Stack from "../shared/stack"
 import Lab from "./lab"
 
-const N_RES = 3
-const N_BUILD = 5
+const N_RES = 5
+const N_BUILD = 11
 
 const CampusComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)

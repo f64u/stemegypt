@@ -588,7 +588,7 @@ const Clubs = () => {
           },
           {
             name: "Mohanad Hassan",
-            title: "CIO",
+            occupiance: "CIO",
           },
           {
             name: "Farid Whaba",
