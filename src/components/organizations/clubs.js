@@ -355,23 +355,23 @@ const Clubs = () => {
         members={[
           {
             name: "Ali Tarek",
-            occupiance: "Cofounder and Co-President",
+            occupiance: "Founder and Co-President",
           },
           {
             name: "Omar Yasser",
-            occupiance: "Cofounder and Co-President",
+            occupiance: "Co-President",
           },
           {
             name: "Ahmed Hesham",
-            occupiance: "Cofounder and Vice President",
+            occupiance: "Vice President",
           },
           {
             name: "Ahmed Saad",
-            occupiance: "Cofounder and Vice President",
+            occupiance: "Vice President and Head of Marketing committee",
           },
           {
             name: "Wael Gamal",
-            occupiance: "Cofounder and Vice President",
+            occupiance: "Vice President and Head of Media committee",
           },
         ]}
       >
