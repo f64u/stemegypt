@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 
 import styles from "./header.module.scss"
-import logo from "../../assets/logo_small.png"
+import logo from "../../assets/icons/logo_small.png"
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false)
@@ -34,12 +34,7 @@ const Header = () => {
             </li>
             <li className={styles.navLink}>
               <Link to="/campus" activeClassName={styles.linkActive}>
-                Campus
-              </Link>
-            </li>
-            <li className={styles.navLink}>
-              <Link to="/community" activeClassName={styles.linkActive}>
-                School Community
+                Campus and Community
               </Link>
             </li>
             <li className={styles.navLink}>

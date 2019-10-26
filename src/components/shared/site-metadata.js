@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 
-import stemIcon from "../../assets/logo.svg"
+import stemIcon from "../../assets/icons/logo.svg"
 
 const SiteMetadata = ({ pathname, pageTitle }) => {
   const {

@@ -4,7 +4,7 @@ import campusImage from "../assets/images/landings/campus.jpg"
 
 import Layout from "../components/shared/layout"
 import SiteMetadata from "../components/shared/site-metadata"
-import CampusComponent from "../components/campus/subcampus"
+import TabbedCampus from "../components/campus/tabbedCampus"
 import LandingImage from "../components/shared/landingimage"
 
 const Campus = () => {
@@ -14,11 +14,11 @@ const Campus = () => {
 
       <LandingImage
         imgSrc={campusImage}
-        title="Campus"
-        subtitle="Information about and images of the school campus"
+        title="Campus and School Community"
+        subtitle="Information about and images of the school campus and community"
       />
 
-      <CampusComponent />
+      <TabbedCampus />
     </Layout>
   )
 }

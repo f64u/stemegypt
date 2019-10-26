@@ -34,6 +34,7 @@ const CampusComponent = () => {
   return (
     <div className={styles.campus}>
       <div className={styles.header}>
+        <div className={styles.title}>Campus</div>
         <p className={styles.pretext}>
           October STEM school is built on a considerably vast piece of land to
           include all the academic facilities, students’ residence and

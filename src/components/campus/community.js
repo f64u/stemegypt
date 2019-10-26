@@ -6,7 +6,8 @@ const SubCommunity = () => {
   return (
     <div className={styles.community}>
       <div className={styles.section}>
-        <h2 className={styles.title}>Student Body</h2>
+        <div className={styles.title}>School Community</div>
+        <h2 className={styles.subtitle}>Student Body</h2>
         <p className={styles.text}>
           With only 450 students, by the end of the year, one may have had at
           least one conversation with everyone. Each student comes from a
@@ -21,7 +22,7 @@ const SubCommunity = () => {
         </p>
       </div>
       <div className={styles.section}>
-        <h2 className={styles.title}>Campus Life</h2>
+        <h2 className={styles.subtitle}>Campus Life</h2>
         <p className={styles.text}>
           The school is an amazing holistic experience. Diverse community, a
           research-based and curriculum-based hybrid education system, amazing

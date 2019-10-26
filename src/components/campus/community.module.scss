@@ -1,12 +1,13 @@
 @import "../shared/common";
+@import "./common_campus";
 
 .community {
   .section {
     width: 80%;
-    margin: 2em auto;
+    margin: 2em;
   }
 
-  .title {
+  .subtitle {
     color: $header-text;
     font-size: 2em;
     margin-bottom: 0.4em;

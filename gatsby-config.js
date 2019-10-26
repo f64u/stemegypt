@@ -61,5 +61,11 @@ module.exports = {
         path: `./src/assets/images/people`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/assets/icons`,
+      },
+    },
   ],
 }

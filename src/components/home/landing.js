@@ -1,7 +1,7 @@
 import React from "react"
 
 import styles from "./landing.module.scss"
-import logo from "../../assets/logo.svg"
+import logo from "../../assets/icons/logo.svg"
 
 const Landing = () => {
   return (
