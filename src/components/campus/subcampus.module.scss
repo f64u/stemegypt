@@ -72,13 +72,22 @@
     }
   }
 
-  section:not(#labs) .content,
   section .labsText {
     width: 80%;
   }
 
   section:not(#labs) .content {
+    display: flex;
+    justify-content: space-between;
     margin: 2em;
+    .text {
+      margin-right: 2em;
+    }
+
+    .sliderContent {
+      min-width: 30vw;
+      max-width: 30vw;
+    }
   }
 
   section#labs .labsText {

@@ -1,11 +1,35 @@
 import React, { useState } from "react"
 
+import ImageGallery from "react-image-gallery"
+
 import styles from "./subcampus.module.scss"
 import Stack from "../shared/stack"
 import Lab from "./lab"
 
+const N_RES = 3
+const N_BUILD = 5
+
 const CampusComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
+
+  const residencs = []
+  for (let i = 1; i <= N_RES; i++) {
+    const image = require(`../../assets/images/school/residence/res${i}.jpg`)
+    residencs.push({
+      original: image,
+      thumbnail: image,
+      sizes: "100% 100%",
+    })
+  }
+
+  const buildings = []
+  for (let i = 1; i <= N_BUILD; i++) {
+    const image = require(`../../assets/images/school/building/build${i}.jpg`)
+    buildings.push({
+      original: image,
+      thumbnail: image,
+    })
+  }
 
   return (
     <div className={styles.campus}>
@@ -52,46 +76,57 @@ const CampusComponent = () => {
       <Stack index={currentIndex}>
         <section id={styles.building}>
           <div className={styles.content}>
-            <p>
-              The school building has one of the most bewitching architecture
-              designs among all the Egyptian schools. With its charming classy
-              looks the school’s design reflects the legacy it was meant to show
-              and share with all other Egyptian schools.
-            </p>
-            <p>
-              With 18 classrooms inside the building, each class moves between
-              these rooms during the day to keep the students motivated and
-              refreshed. Inside these classrooms, students are separated into 6
-              different groups. The groups are to work together to guarantee
-              helping each other and understanding their curriculums without any
-              outside help.
-            </p>
-            <p>
-              Although the school focuses on the refinement of the students’
-              STEM skills, Sports play a leading role in keeping the students in
-              shape and motivated to keep going. The school includes a top tier
-              volleyball court and a football yard that attract most students.
-              The school is also covered with wide green spaces leading to a
-              centered pergola that’s located between the school building and
-              the students’ residence.
-            </p>
+            <div className={styles.text}>
+              <p>
+                The school building has one of the most bewitching architecture
+                designs among all the Egyptian schools. With its charming classy
+                looks the school’s design reflects the legacy it was meant to
+                show and share with all other Egyptian schools.
+              </p>
+              <p>
+                With 18 classrooms inside the building, each class moves between
+                these rooms during the day to keep the students motivated and
+                refreshed. Inside these classrooms, students are separated into
+                6 different groups. The groups are to work together to guarantee
+                helping each other and understanding their curriculums without
+                any outside help.
+              </p>
+              <p>
+                Although the school focuses on the refinement of the students’
+                STEM skills, Sports play a leading role in keeping the students
+                in shape and motivated to keep going. The school includes a top
+                tier volleyball court and a football yard that attract most
+                students. The school is also covered with wide green spaces
+                leading to a centered pergola that’s located between the school
+                building and the students’ residence.
+              </p>
+            </div>
+            <div className={styles.sliderContent}>
+              <ImageGallery items={buildings} />
+            </div>
           </div>
         </section>
         <section id={styles.residence}>
           <div className={styles.content}>
-            <p>
-              The student residence is divided into three main buildings, one
-              for each batch, where each building is divided into 6 wings, where
-              5 of them are residential wings for students and the sixth is
-              unique for each building. The special wings are mosque, gym, and
-              residence for some teachers and school workers. Each of the main
-              residential wings is divided into 10 rooms where each room houses
-              3 students. Each wing also includes 4 shared baths containing
-              three shower stalls, three toilets, and three sinks. Each of the
-              buildings has its own dining hall while sharing a common kitchen
-              located in the second building. All buildings are equipped with
-              Wi-Fi that is could only be used by the school laptops.
-            </p>
+            <div className={styles.text}>
+              <p>
+                The student residence is divided into three main buildings, one
+                for each batch, where each building is divided into 6 wings,
+                where 5 of them are residential wings for students and the sixth
+                is unique for each building. The special wings are mosque, gym,
+                and residence for some teachers and school workers. Each of the
+                main residential wings is divided into 10 rooms where each room
+                houses 3 students. Each wing also includes 4 shared baths
+                containing three shower stalls, three toilets, and three sinks.
+                Each of the buildings has its own dining hall while sharing a
+                common kitchen located in the second building. All buildings are
+                equipped with Wi-Fi that is could only be used by the school
+                laptops.
+              </p>
+            </div>
+            <div className={styles.sliderContent}>
+              <ImageGallery items={residencs} />
+            </div>
           </div>
         </section>
         <section id={styles.labs}>
