@@ -8,6 +8,9 @@
 
   .tabset {
     margin-left: 2em;
+    @include le-lg {
+      font-size: 0.7em;
+    }
 
     & > input[type="radio"] {
       position: absolute;
@@ -80,13 +83,20 @@
     display: flex;
     justify-content: space-between;
     margin: 2em;
+
+    @include le-lg {
+      flex-direction: column;
+    }
+
     .text {
       margin-right: 2em;
     }
 
     .sliderContent {
-      min-width: 30vw;
-      max-width: 30vw;
+      @include gt-lg {
+        min-width: 30vw;
+        max-width: 30vw;
+      }
     }
   }
 
@@ -99,9 +109,16 @@
     flex-wrap: wrap;
     justify-content: center;
 
+    @include le-lg {
+      flex-direction: column;
+    }
+
     .lab {
-      width: 16.5%;
-      margin: 0.9em;
+      margin: 1em 2em;
+      @include gt-lg {
+        width: 16.5%;
+        margin: 0.9em;
+      }
     }
   }
 }

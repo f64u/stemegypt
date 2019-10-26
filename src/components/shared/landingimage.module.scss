@@ -4,7 +4,7 @@ $height: calc(90vh - 45px);
 
 .landingImage {
   width: 100vw;
-  height: calc(90vh - 45px);
+  height: 85vh;
   max-width: 100%;
   position: relative;
   background-attachment: fixed;
@@ -15,7 +15,11 @@ $height: calc(90vh - 45px);
   .text {
     position: absolute;
     left: 4em;
+    @include le-lg {
+      left: 2em;
+    }
     bottom: 3em;
+    right: 2em;
     z-index: 2;
 
     .title {

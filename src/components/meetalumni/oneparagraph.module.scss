@@ -4,6 +4,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+
+  @include gt-lg {
+    flex-direction: row-reverse;
+    &.isLeft {
+      flex-direction: row;
+    }
+  }
 
   .avatar {
     display: flex;
@@ -27,6 +35,13 @@
       font-weight: 700;
       padding: 0 1.2em;
     }
+
+    @include le-lg {
+      width: 70%;
+      .title {
+        margin-bottom: 1em;
+      }
+    }
   }
 
   .content {
@@ -41,5 +56,9 @@
     color: white;
 
     padding: 1.4em;
+
+    @include le-lg {
+      width: 100%;
+    }
   }
 }

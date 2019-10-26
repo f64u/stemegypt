@@ -8,9 +8,12 @@
   }
 
   height: 99vh;
+  @include le-lg {
+    height: 80vh;
+  }
 
   .leftSide {
-    height: 8em;
+    height: 7em;
     @include gt-lg {
       height: auto;
       width: 15vw;

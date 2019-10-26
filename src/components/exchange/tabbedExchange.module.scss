@@ -7,9 +7,12 @@
     flex-direction: row;
   }
   height: 99vh;
+  @include le-lg {
+    height: 85vh;
+  }
 
   .leftSide {
-    height: 10em;
+    height: 9em;
     @include gt-lg {
       height: auto;
       width: 15vw;

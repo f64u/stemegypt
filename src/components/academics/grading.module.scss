@@ -36,6 +36,9 @@ $table-header: #061840;
   .leftSide,
   .rightSide {
     width: 47%;
+    @include le-lg {
+      width: 100%;
+    }
   }
 
   p {

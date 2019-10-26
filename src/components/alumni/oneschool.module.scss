@@ -2,8 +2,16 @@
 
 .schoolCard {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @include gt-lg {
+    flex-direction: row-reverse;
+    &.isLeft {
+      flex-direction: row;
+    }
+  }
 
   .avatar {
     display: flex;
@@ -16,7 +24,6 @@
 
     .image {
       object-fit: cover;
-      border-radius: 50%;
 
       align-self: center;
       width: 50%;
@@ -27,6 +34,17 @@
       font-size: 1.4em;
       font-weight: 700;
       padding: 0 1.2em;
+    }
+
+    @include le-lg {
+      width: 80%;
+      .image {
+        height: 136px;
+        margin-bottom: 0.1em;
+      }
+      .title {
+        margin-bottom: 1.5em;
+      }
     }
   }
 
@@ -56,6 +74,10 @@
           margin-left: -0.5em;
         }
       }
+    }
+
+    @include le-lg {
+      width: 80%;
     }
   }
 }

@@ -7,10 +7,7 @@ const OneSchool = props => {
   const isLeft = props.isLeft
 
   return (
-    <div
-      className={styles.schoolCard}
-      style={{ flexDirection: isLeft ? "row" : "row-reverse" }}
-    >
+    <div className={`${styles.schoolCard} ${isLeft ? styles.isLeft : ""}`}>
       <div className={styles.avatar}>
         <img
           className={styles.image}

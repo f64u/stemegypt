@@ -4,6 +4,9 @@
 .academic {
   .content {
     width: 67%;
+    @include le-lg {
+      width: 100%;
+    }
   }
 
   .caption {

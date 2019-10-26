@@ -1,9 +1,18 @@
+@import "../shared/common";
+
 .organizationsEvents {
   display: flex;
+  @include le-lg {
+    flex-direction: column;
+  }
 
   .leftSide {
     padding: 1em 0 0 1em;
+    @include le-lg {
+      padding-right: 1em;
+    }
   }
+
   .rightSide {
     flex: 1;
     margin: 1em 2em;
