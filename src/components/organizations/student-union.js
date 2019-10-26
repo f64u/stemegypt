@@ -2,19 +2,21 @@ import React from "react"
 
 import styles from "./student-union.module.scss"
 
-import mit from "../../assets/images/colleges/mit.png"
-const john = mit
-const labib = mit
-const gaber = mit
-const battah = mit
-const saad = mit
-const mohanad = mit
-const badry = mit
+import john from "../../assets/images/people/johnwilliam.png"
+import labib from "../../assets/images/people/labib.jpg"
+import gaber from "../../assets/images/people/gaber.jpg"
+import battah from "../../assets/images/people/battah.jpg"
+import mohanad from "../../assets/images/people/mohanad.jpg"
+import saad from "../../assets/images/people/saad.jpg"
+import badry from "../../assets/images/people/badry.jpg"
 
 const Person = ({ name, occupiance, imgSrc }) => {
   return (
     <div className={styles.person}>
-      <img src={imgSrc} alt={name + " who does " + occupiance} />
+      <div
+        className={styles.image}
+        style={{ backgroundImage: `url(${imgSrc})` }}
+      />
       <div className={styles.name}>{name}</div>
       <div className={styles.occupiance}>{occupiance}</div>
     </div>
@@ -24,6 +26,7 @@ const Person = ({ name, occupiance, imgSrc }) => {
 const StudentUnion = () => {
   return (
     <div className={styles.studentUnion}>
+      <h2 className={styles.title}>Student Union</h2>
       <div className={styles.content}>
         <p className={styles.preText}>
           Amid the vivacious nature of the student activities, the student union
@@ -50,7 +53,7 @@ const StudentUnion = () => {
           </li>
           <li>Organized trips to the GUC, AAST and E-JUST.</li>
         </ul>
-        <h2 className={styles.title}>2018-2019 Student Union Board</h2>
+        <h3 className={styles.subtitle}>2018-2019 Student Union Board</h3>
         <div className={styles.people}>
           <div className={styles.row}>
             <Person name="John William" occupiance="President" imgSrc={john} />

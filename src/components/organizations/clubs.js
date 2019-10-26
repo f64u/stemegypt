@@ -6,13 +6,13 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import styles from "./clubs.module.scss"
 import AnimateHeight from "react-animate-height"
 
-const Club = ({ name, members, subtext, children: portions }) => {
-  const [isOpen, setIsOpen] = useState(false)
+const Club = ({ name, members, subtext, expanded, children: portions }) => {
+  const [isOpen, setIsOpen] = useState(expanded || false)
 
   return (
     <div className={styles.club}>
       <div className={styles.head}>
-        <h2 className={styles.title}>{name}</h2>
+        <h3 className={styles.title}>{name}</h3>
         <div className={styles.icon} onClick={() => setIsOpen(!isOpen)}>
           <FontAwesomeIcon icon={faBars} />
         </div>
@@ -52,7 +52,9 @@ const Portion = ({ title, children }) => {
 const Clubs = () => {
   return (
     <div className={styles.clubs}>
+      <h2 className={styles.title}>Clubs and Organizations</h2>
       <Club
+        expanded
         name="Biology Group"
         members={[
           { name: "Youssef Yasser", occupiance: "Current Head" },

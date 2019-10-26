@@ -6,8 +6,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import styles from "./events.module.scss"
 import AnimateHeight from "react-animate-height"
 
-const Event = ({ name, children }) => {
-  const [isOpen, setIsOpen] = useState(false)
+const Event = ({ name, expanded, children }) => {
+  const [isOpen, setIsOpen] = useState(expanded || false)
 
   return (
     <div className={styles.event}>
@@ -38,7 +38,12 @@ const Event = ({ name, children }) => {
 const Events = () => {
   return (
     <div className={styles.events}>
-      <Event name="The German Teacher Day “Deutsch Lehrer Tag,” November 24th, 2014">
+      <h2 className={styles.title}>School Events</h2>
+
+      <Event
+        name="The German Teacher Day “Deutsch Lehrer Tag,” November 24th, 2014"
+        expanded
+      >
         {[
           {
             title: "Overview",
