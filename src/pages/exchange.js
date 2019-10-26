@@ -1,8 +1,12 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+
+import exchangeImage from "../assets/images/landings/exchange.jpg"
+
 import Layout from "../components/shared/layout"
 import SiteMetadata from "../components/shared/site-metadata"
 import TabbedExchange from "../components/exchange/tabbedExchange"
+import LandingImage from "../components/shared/landingimage"
 
 const Exchange = () => {
   const {
@@ -34,6 +38,11 @@ const Exchange = () => {
         pageTitle="Exchange Program Participation"
       />
 
+      <LandingImage
+        imgSrc={exchangeImage}
+        title="Exchange Programs Participation"
+        subtitle="Exchange and summer programs our students participated in"
+      />
       <TabbedExchange exchanges={data} />
     </Layout>
   )

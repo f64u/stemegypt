@@ -1,7 +1,35 @@
+@import "../shared/common";
+
 .tabbedAcademics {
   display: flex;
+  flex-direction: column;
+
+  @include le-lg {
+    align-items: center;
+  }
+
+  @include gt-lg {
+    flex-direction: row;
+  }
+
   .leftSide {
-    flex-shrink: 0;
+    height: 2em;
+    width: 80%;
+    text-align: center;
+
+    @include gt-lg {
+      height: auto;
+      width: auto;
+      flex-shrink: 0;
+      text-align: left;
+    }
     padding: 1em 0 0 1em;
+  }
+
+  .rightSide {
+    @include le-lg {
+      margin-top: 4em;
+      width: 80%;
+    }
   }
 }

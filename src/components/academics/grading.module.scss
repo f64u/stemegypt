@@ -16,11 +16,17 @@ $table-header: #061840;
 
   table {
     margin-bottom: 2em;
+    @include le-lg {
+      margin: 1em 0;
+    }
   }
 
   .content {
     display: flex;
     justify-content: space-between;
+    @include le-lg {
+      flex-direction: column;
+    }
   }
 
   .leftSide {

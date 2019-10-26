@@ -12,28 +12,22 @@ const SideNav = props => {
       className={styles.sideNav}
       style={props.sticky ? { position: "sticky", top: "1em" } : {}}
     >
-      {items.map((item, i) => {
-        let list = [
+      {items.map((item, i) => (
+        <div className={styles.outerBtn}>
           <button
             className={`${styles.itemName} ${
               currentIndex === i ? styles.current : ""
             }`}
-            key={i}
+            key={`button ${i}`}
             onClick={() => {
               setCurrentIndex(i)
               onItemClick(i)
             }}
           >
             {item.name}
-          </button>,
-        ]
-        if (item !== items[items.length - 1])
-          list.push(
-            <div key={2 * items.length - i} className={styles.divider} />
-          )
-
-        return list
-      })}
+          </button>
+        </div>
+      ))}
     </div>
   )
 }

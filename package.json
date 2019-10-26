@@ -16,7 +16,9 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "firebase": "^7.2.2",
     "gatsby": "^2.15.19",
+    "gatsby-plugin-firebase": "^0.1.1",
     "gatsby-plugin-manifest": "^2.2.20",
     "gatsby-plugin-nprogress": "^2.1.9",
     "gatsby-plugin-react-helmet": "^3.1.10",
@@ -28,9 +30,11 @@
     "react-animate-height": "^2.0.16",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-image-gallery": "^0.9.1"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "prettier": "^1.18.2"
   },
   "repository": {

@@ -2,18 +2,25 @@
 
 .tabbedExchange {
   display: flex;
+  flex-direction: column;
+  @include gt-lg {
+    flex-direction: row;
+  }
+  height: 99vh;
 
   .leftSide {
-    width: 15vw;
-    height: calc(100vh - 45px);
+    height: 10em;
+    @include gt-lg {
+      height: auto;
+      width: 15vw;
+    }
   }
 
   .rightSide {
     .rightSideContent {
       margin: 1em 2em;
     }
-
+    height: auto;
     flex-grow: 1;
-    height: calc(100vh - 45px);
   }
 }

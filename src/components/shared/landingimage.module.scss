@@ -1,13 +1,16 @@
 @import "./common";
 
+$height: calc(90vh - 45px);
+
 .landingImage {
   width: 100vw;
   height: calc(90vh - 45px);
   max-width: 100%;
   position: relative;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 
   .text {
     position: absolute;

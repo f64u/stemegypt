@@ -15,7 +15,7 @@ const MeetAlumni = () => {
       <LandingImage
         imgSrc={alumniImage}
         title="Meet our Alumni"
-        subtitle="Stories about two of our alumni"
+        subtitle="Personal growth at STEM October"
       />
       <Paragraphs />
     </Layout>
