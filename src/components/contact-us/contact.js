@@ -27,7 +27,7 @@ const ContactUsComponent = props => {
         validate={values => {
           let errors = {}
           if (!values.email) {
-            errors.email = "Required"
+            errors.email = "Your email address is required"
           } else if (
             !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
           ) {
@@ -35,7 +35,7 @@ const ContactUsComponent = props => {
           }
 
           if (!values.name) {
-            errors.name = "Required"
+            errors.name = "Your name is required"
           }
 
           if (
@@ -44,15 +44,15 @@ const ContactUsComponent = props => {
               values.phoneNumber
             )
           ) {
-            errors.phoneNumber = "Invalid"
+            errors.phoneNumber = "The phone number you entered is invalid"
           }
 
           if (!values.subject) {
-            errors.subject = "Required"
+            errors.subject = "A subject is required"
           }
 
           if (!values.message) {
-            errors.message = "Required"
+            errors.message = "The message field is required"
           }
 
           return errors
