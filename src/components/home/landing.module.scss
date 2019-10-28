@@ -3,16 +3,25 @@
 section#landing {
   overflow: hidden;
   height: calc(100vh - 45px);
-  background-image: url("../../assets/images/IMG-20190910-WA0039.jpg");
-  background-position: center;
+  @include le-lg {
+    height: 70vh;
+  }
+  background-image: url("../../assets/images/STEM.jpg");
+  background-position: center center;
+  @include le-lg {
+    background-position: right center;
+  }
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 30px;
   position: relative;
   display: flex;
 
   .overlay {
     position: absolute;
-    background: #173247;
+    @include le-lg {
+      background-color: #061f4b;
+    }
     opacity: 0.8;
     top: 0;
     left: 0;
@@ -30,37 +39,57 @@ section#landing {
   }
 
   .content {
+    position: absolute;
     display: flex;
-    margin-top: 5vh;
-    margin-right: -50px;
     align-items: center;
     height: 230px;
+
+    top: 1em;
+    left: 2em;
 
     .text {
       display: flex;
       flex-direction: column;
-      color: $header-white;
+      color: white;
       text-align: center;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 
       .title {
         font-family: $header-font;
         font-weight: 600;
-        font-size: 3em;
+        font-size: 4.5em;
         text-transform: uppercase;
       }
 
       .subtitle {
         font-family: $body-font;
-        font-size: 1.7em;
+        font-size: 2.45em;
       }
     }
 
     .logo {
       position: relative;
-      left: -38px;
+      left: -20px;
       top: -9px;
       max-width: 100%;
       height: auto;
+      filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+      // box-shadow: 1px 1px 1px black;
+    }
+
+    @include le-lg {
+      .text {
+        .title {
+          font-size: 3em;
+        }
+        .subtitle {
+          font-size: 2em;
+        }
+      }
+      .logo {
+        height: 200px;
+        left: -40px;
+      }
     }
   }
 }
