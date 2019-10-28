@@ -44,7 +44,7 @@ const Records = () => {
       <LandingImage
         imgSrc={recordsImage}
         title="Competition Records"
-        subtitle="Records achieved by individuals and the school"
+        subtitle="Our honors and records"
       />
       <TabbedRecords competitions={data} />
     </Layout>

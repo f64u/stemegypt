@@ -18,7 +18,7 @@ const Organizations = () => {
       <LandingImage
         imgSrc={eventsImage}
         title="Student Organizations and Events"
-        subtitle="Student-run and -made organizations and events inside the school"
+        subtitle="Students' intramural and extramural activities"
       />
 
       <OrganizationsEvents />

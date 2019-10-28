@@ -33,15 +33,12 @@ const Exchange = () => {
 
   return (
     <Layout>
-      <SiteMetadata
-        pathname="/exchange"
-        pageTitle="Exchange Program Participation"
-      />
+      <SiteMetadata pathname="/exchange" pageTitle="Exchange Program" />
 
       <LandingImage
         imgSrc={exchangeImage}
-        title="Exchange Programs Participation"
-        subtitle="Exchange and summer programs our students participated in"
+        title="Exchange Programs"
+        subtitle="Exchange and summer programs our students took part in"
       />
       <TabbedExchange exchanges={data} />
     </Layout>
