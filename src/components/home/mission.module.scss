@@ -3,13 +3,36 @@
 section#mission {
   background: $header-white;
   display: flex;
-  height: 73vh;
   width: 100%;
+  padding: 7em 0;
+  justify-content: center;
 
   .images {
     height: 100%;
     min-width: 45vw;
     flex-grow: 1;
+    position: relative;
+
+    .image {
+      filter: grayscale(100%);
+    }
+
+    .backgroundImage {
+      width: 80%;
+      height: 100%;
+    }
+
+    .focusedImage {
+      height: 115%;
+      box-shadow: 2px 2px 10px rgba($color: #000000, $alpha: 0.2);
+
+      position: absolute;
+      top: -1em;
+      bottom: -1em;
+      right: 25%;
+
+      z-index: 2;
+    }
   }
 
   .content {
@@ -17,6 +40,10 @@ section#mission {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+
+    @include gt-lg {
+      margin-left: -6.8em;
+    }
 
     .text {
       text-align: center;
@@ -26,6 +53,23 @@ section#mission {
 
     .cta {
       margin: 2em 0 0 2em;
+      z-index: 2;
+    }
+  }
+
+  @include le-lg {
+    flex-direction: column;
+    .images {
+      margin: 1em auto 5em;
+      text-align: center;
+      .focusedImage {
+        right: 15%;
+      }
+    }
+
+    .content {
+      width: 80%;
+      margin: 2em auto 0;
     }
   }
 }

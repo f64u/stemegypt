@@ -1,21 +1,41 @@
 @import "../shared/common";
 
 section#vision {
-  height: 70vh;
   position: relative;
   padding-bottom: 50px;
   padding-right: 20px;
 
   .rect {
-    height: 100%;
-    width: 25%;
     background: $header-text;
     z-index: -1;
 
     position: absolute;
     right: 0;
     top: 0;
-    bottom: 0;
+
+    @include le-lg {
+      left: 0;
+      right: 0;
+      height: 20%;
+      width: 100%;
+    }
+
+    @include gt-lg {
+      bottom: 0;
+      height: 100%;
+      width: 25%;
+    }
+  }
+
+  .imgContainer {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    margin: 2em 0 0 1em;
+    img {
+      height: 300px;
+      object-fit: cover;
+    }
   }
 
   .container {
@@ -24,6 +44,10 @@ section#vision {
     margin: 0 auto;
     display: flex;
     align-items: center;
+
+    @include le-lg {
+      flex-direction: column-reverse;
+    }
   }
 
   .text {

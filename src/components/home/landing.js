@@ -9,6 +9,8 @@ const Landing = () => {
       <div className={styles.overlay}></div>
       <div className={styles.container}>
         <div className={styles.content}>
+          <div className={styles.downlay}></div>
+
           <div className={styles.text}>
             <h1 className={styles.title}>STEM Egypt</h1>
             <h2 className={styles.subtitle}>High School for Boys</h2>

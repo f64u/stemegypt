@@ -1,5 +1,7 @@
 import React from "react"
 
+import hand from "../../assets/images/home/hand.png"
+
 import styles from "./vision.module.scss"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import IconButton from "../shared/iconbutton"
@@ -22,7 +24,9 @@ const VisionSection = () => {
             <IconButton text="our vision" icon={faArrowRight} />
           </div>
         </div>
-        <img src="https://via.placeholder.com/350x350" alt="illustration" />
+        <div className={styles.imgContainer}>
+          <img src={hand} alt="illustration" />
+        </div>
       </div>
     </section>
   )

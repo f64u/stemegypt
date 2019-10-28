@@ -51,6 +51,9 @@ section#thename {
       display: inline-block;
       min-width: 230px;
       margin: 30px 0 15px 0;
+      @include le-lg {
+        min-width: 10em;
+      }
     }
   }
 }

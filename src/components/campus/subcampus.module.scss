@@ -7,6 +7,10 @@
   width: 100%;
   font-size: 1.2em;
 
+  .imageClass {
+    object-fit: contain;
+  }
+
   .tabset {
     margin-left: 2em;
     @include le-lg {

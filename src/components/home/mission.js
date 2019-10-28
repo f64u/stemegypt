@@ -2,6 +2,9 @@ import React from "react"
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
+import schoolBuilding from "../../assets/images/home/back.jpg"
+import residentiaryBuilding from "../../assets/images/home/front.jpg"
+
 import styles from "./mission.module.scss"
 import IconButton from "../shared/iconbutton"
 
@@ -9,9 +12,16 @@ const MissionSection = () => {
   return (
     <section id={styles.mission}>
       <div className={styles.images}>
-        <div className={styles.image}></div>
-        <div className={styles.image}></div>
-        <div className={styles.image}></div>
+        <img
+          src={schoolBuilding}
+          alt="school building"
+          className={`${styles.image} ${styles.backgroundImage}`}
+        />
+        <img
+          src={residentiaryBuilding}
+          alt="residentiary building"
+          className={`${styles.image} ${styles.focusedImage}`}
+        />
       </div>
       <div className={styles.content}>
         <p className={styles.text}>
