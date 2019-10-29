@@ -8,6 +8,7 @@ import Lab from "./lab"
 
 const N_RES = 19
 const N_BUILD = 25
+const N_LAB = 57
 
 const CampusComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -25,6 +26,15 @@ const CampusComponent = () => {
   for (let i = 1; i <= N_BUILD; i++) {
     const image = require(`../../assets/images/school/building/build${i}.jpg`)
     buildings.push({
+      original: image,
+      thumbnail: image,
+    })
+  }
+
+  const labs = []
+  for (let i = 1; i <= N_LAB; i++) {
+    const image = require(`../../assets/images/school/labs/lab${i}.jpg`)
+    labs.push({
       original: image,
       thumbnail: image,
     })
@@ -131,99 +141,35 @@ const CampusComponent = () => {
         </section>
         <section id={styles.labs}>
           <div className={styles.content}>
-            <p className={styles.labsText}>
+            <p className={styles.text}>
               The school’s most memorable site is the labs ground where all the
               labs are located close to each other. The school includes 14 labs,
               which are:
             </p>
 
-            <div className={styles.labs}>
-              <div className={styles.lab}>
-                <Lab
-                  name="Geology Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Robotics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Computer Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Physics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Electronics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Phonetics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Chemistry Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Communication Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Sound Dynamics"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Biology Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Multimedia Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Fluid Dynamics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Mechanics Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
-              </div>
-              <div className={styles.lab}>
-                <Lab
-                  name="Fab Lab"
-                  imgSrc={require("../../assets/images/colleges/mit.png")}
-                />
+            <div className={styles.row}>
+              <ul>
+                <li>Geology Lab</li>
+                <li>Robotics Lab</li>
+                <li>Computer Lab</li>
+                <li>Physics Lab</li>
+                <li>Electronics Lab</li>
+                <li>Phonetics Lab</li>
+                <li>Chemistry Lab</li>
+                <li>Communication Lab</li>
+                <li>Sound Dynamics</li>
+                <li>Biology Lab</li>
+                <li>Multimedia Lab</li>
+                <li>Mechanics Lab</li>
+                <li>Fab Lab</li>
+                <li>Fluid Dynamics Lab</li>
+              </ul>
+
+              <div className={styles.sliderContent}>
+                <ImageGallery items={labs} />
               </div>
             </div>
-            <p className={styles.labsText}>
+            <p className={styles.text}>
               Each has its own unique look and architecture that inspires the
               students into believing in how awesome what these labs help to
               develop. All the practical experiments are held in these labs with

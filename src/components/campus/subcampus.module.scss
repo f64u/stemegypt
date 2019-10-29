@@ -14,7 +14,7 @@
   .tabset {
     margin-left: 2em;
     @include le-lg {
-      font-size: 0.7em;
+      font-size: 0.8em;
     }
 
     & > input[type="radio"] {
@@ -64,11 +64,6 @@
     border-top: 1px solid #ccc;
   }
 
-  p {
-    margin: 0.8em 0;
-    line-height: 1.3em;
-  }
-
   .header {
     width: 80%;
     margin: 1em 2em 2em;
@@ -80,11 +75,7 @@
     }
   }
 
-  section .labsText {
-    width: 80%;
-  }
-
-  section:not(#labs) .content {
+  section .content {
     display: flex;
     justify-content: space-between;
     margin: 2em;
@@ -93,8 +84,13 @@
       flex-direction: column;
     }
 
-    .text {
-      margin-right: 2em;
+    .text + .sliderContent {
+      @include gt-lg {
+        margin-left: 2em;
+      }
+      @include le-lg {
+        margin-top: 2em;
+      }
     }
 
     .sliderContent {
@@ -105,24 +101,17 @@
     }
   }
 
-  section#labs .labsText {
-    margin: 2em;
-  }
+  section#labs .content {
+    display: block;
 
-  .labs {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    @include le-lg {
-      flex-direction: column;
-    }
-
-    .lab {
-      margin: 1em 2em;
-      @include gt-lg {
-        width: 16.5%;
-        margin: 0.9em;
+    .row {
+      .sliderContent {
+        margin: 0.8em 0;
+      }
+      display: flex;
+      justify-content: space-between;
+      @include le-lg {
+        flex-direction: column;
       }
     }
   }
