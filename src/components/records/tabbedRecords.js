@@ -19,7 +19,7 @@ const TabbedRecords = props => {
   return (
     <div className={styles.tabbedRecords}>
       <div className={styles.leftSide}>
-        <Scrollbars autoHide>
+        <Scrollbars>
           <SideNav onItemClick={i => setCurrentItem(i)}>
             {fisrtThirteen.concat([
               {

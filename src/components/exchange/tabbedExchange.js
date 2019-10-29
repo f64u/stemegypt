@@ -15,7 +15,7 @@ const TabbedExchange = props => {
   return (
     <div className={styles.tabbedExchange}>
       <div className={styles.leftSide}>
-        <Scrollbars autoHide>
+        <Scrollbars>
           <SideNav onItemClick={i => setCurrentItem(i)}>{exchanges}</SideNav>
         </Scrollbars>
       </div>

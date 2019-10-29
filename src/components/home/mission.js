@@ -7,6 +7,7 @@ import residentiaryBuilding from "../../assets/images/home/front.jpg"
 
 import styles from "./mission.module.scss"
 import IconButton from "../shared/iconbutton"
+import { Link } from "gatsby"
 
 const MissionSection = () => {
   return (
@@ -30,7 +31,9 @@ const MissionSection = () => {
           humanity.
         </p>
         <div className={styles.cta}>
-          <IconButton text="mission" icon={faArrowRight} />
+          <Link to="/about/#mission">
+            <IconButton text="mission" icon={faArrowRight} />
+          </Link>
         </div>
       </div>
     </section>

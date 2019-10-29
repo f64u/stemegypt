@@ -4,6 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 
 import styles from "./target.module.scss"
 import IconButton from "../shared/iconbutton"
+import { Link } from "gatsby"
 
 const TargetedStudentsSection = () => {
   return (
@@ -21,7 +22,9 @@ const TargetedStudentsSection = () => {
           Engineering, and Mathematics.
         </p>
         <div className={styles.cta}>
-          <IconButton text="learn more" icon={faArrowRight} />
+          <Link to="/about#targetedStudents">
+            <IconButton text="learn more" icon={faArrowRight} />
+          </Link>
         </div>
       </div>
     </section>

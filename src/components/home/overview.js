@@ -5,6 +5,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import styles from "./overview.module.scss"
 import IconButton from "../shared/iconbutton"
 
+import { Link } from "gatsby"
+
 const OverviewSection = () => {
   return (
     <section id={styles.overview}>
@@ -25,7 +27,11 @@ const OverviewSection = () => {
         </div>
         <div className={styles.link}>
           <div className={styles.cta}>
-            <IconButton text="overview" icon={faArrowRight} />
+            <Link to="/about#Overview">
+              <Link to="/about#overview">
+                <IconButton text="overview" icon={faArrowRight} />
+              </Link>
+            </Link>
           </div>
         </div>
       </div>

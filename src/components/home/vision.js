@@ -5,6 +5,7 @@ import hand from "../../assets/images/home/hand.png"
 import styles from "./vision.module.scss"
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import IconButton from "../shared/iconbutton"
+import { Link } from "gatsby"
 
 const VisionSection = () => {
   return (
@@ -21,7 +22,9 @@ const VisionSection = () => {
             applications, critical thinking, and pioneering spirit.
           </div>
           <div className={styles.cta}>
-            <IconButton text="our vision" icon={faArrowRight} />
+            <Link to="/about#vision">
+              <IconButton text="our vision" icon={faArrowRight} />
+            </Link>
           </div>
         </div>
         <div className={styles.imgContainer}>
