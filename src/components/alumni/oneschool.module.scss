@@ -26,7 +26,10 @@
       object-fit: cover;
 
       align-self: center;
-      width: 50%;
+
+      @include gt-lg {
+        width: 50%;
+      }
     }
 
     .title {

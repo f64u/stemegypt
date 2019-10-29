@@ -1,6 +1,9 @@
 import React from "react"
 
 import visionImg from "../../assets/images/home/hand.png"
+import missionImg from "../../assets/images/school/labs/lab7.jpg"
+import overviewImg from "../../assets/images/school/labs/lab47.jpg"
+import targetImg from "../../assets/images/school/building/build7.jpg"
 
 import styles from "./about.module.scss"
 import AboutComponent from "./aboutcomponent"
@@ -33,7 +36,7 @@ const About = () => {
         </AboutComponent>
         <AboutComponent
           name="Mission"
-          imgSrc={visionImg}
+          imgSrc={missionImg}
           isLeft
           className={styles.oneabout}
         >
@@ -47,7 +50,7 @@ const About = () => {
         </AboutComponent>
         <AboutComponent
           name="Overview"
-          imgSrc={visionImg}
+          imgSrc={overviewImg}
           className={styles.oneabout}
         >
           <p>
@@ -70,7 +73,7 @@ const About = () => {
         </AboutComponent>
         <AboutComponent
           name="Targeted Students"
-          imgSrc={visionImg}
+          imgSrc={targetImg}
           isLeft
           className={styles.oneabout}
         >

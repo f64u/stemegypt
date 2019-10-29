@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "anchorate": "^1.2.3",
@@ -26,6 +27,7 @@
     "gatsby-plugin-nprogress": "^2.1.9",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-sass": "^2.1.17",
+    "gatsby-plugin-sitemap": "^2.2.19",
     "gatsby-source-filesystem": "^2.1.29",
     "gatsby-transformer-json": "^2.2.12",
     "node-sass": "^4.12.0",

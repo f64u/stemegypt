@@ -65,7 +65,7 @@ const Header = () => {
                 Meet our Alumni
               </Link>
             </li>
-            <li className={`${styles.navLink} ${styles.cta} ${styles.search}`}>
+            {/* <li className={`${styles.navLink} ${styles.cta} ${styles.search}`}>
               <div className={styles.searchContent}>
                 <input type="text" placeholder=" " />
                 <div>
@@ -74,7 +74,7 @@ const Header = () => {
                   </svg>
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

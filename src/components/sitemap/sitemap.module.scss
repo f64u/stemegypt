@@ -1,0 +1,46 @@
+@import "../shared/common";
+
+.sitemap {
+  margin: 1em;
+
+  .title {
+    font-family: $header-font;
+    font-size: 2.4em;
+    margin-bottom: 0.4em;
+  }
+
+  .container {
+    width: 80%;
+    margin: 2em auto;
+  }
+
+  ul li {
+    text-indent: 1em;
+  }
+
+  p,
+  ul li {
+    line-height: 1.4em;
+    font-size: 1.15em;
+  }
+
+  p + p {
+    margin-top: 1em;
+  }
+
+  ul {
+    margin: 0.8em 0;
+    li {
+      margin-left: 1em;
+      &::before {
+        position: relative;
+        left: -2em;
+        content: "\2022";
+        color: $header-text;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+      }
+    }
+  }
+}
