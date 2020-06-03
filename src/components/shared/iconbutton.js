@@ -10,7 +10,7 @@ const IconButton = props => {
 
   return (
     <div className={styles.iconButton}>
-      <span className={styles.ctaText}>{text}</span>{" "}
+      <span className={styles.ctaText}>{text}</span>
       <FontAwesomeIcon icon={icon} />
     </div>
   )
