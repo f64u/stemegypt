@@ -1,114 +1,114 @@
 @import "../shared/common";
 
 section#landing {
-  overflow: hidden;
-  height: calc(100vh - 45px);
-  @include le-lg {
-    height: 70vh;
-  }
-  background-image: url("../../assets/images/STEM.jpg");
-  background-position: center center;
-  @include le-lg {
-    background-position: right center;
-  }
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 30px;
-  position: relative;
-  display: flex;
+	overflow: hidden;
+	height: calc(100vh - 45px);
+	@include le-lg {
+		height: 70vh;
+	}
 
-  .overlay {
-    position: absolute;
-    @include le-lg {
-      background-color: #061f4b;
-    }
-    opacity: 0.8;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-  }
+	background-position: center center;
+	@include le-lg {
+		background-position: right center;
+	}
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 30px;
+	position: relative;
+	display: flex;
 
-  .container {
-    z-index: 1;
-    width: 97%;
-    height: 100%;
-    margin: 0 auto;
-  }
+	.overlay {
+		position: absolute;
+		@include le-lg {
+			background-color: #061f4b;
+		}
+		opacity: 0.8;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+	}
 
-  .downlay {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: -1em;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
+	.container {
+		z-index: 1;
+		width: 97%;
+		height: 100%;
+		margin: 0 auto;
+	}
 
-    filter: blur(700px);
-    background: $header-text;
-    border-radius: 40%;
+	.downlay {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: -1em;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
 
-    @include le-lg {
-      display: none;
-    }
-  }
+		filter: blur(700px);
+		background: $header-text;
+		border-radius: 40%;
 
-  .content {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    height: 230px;
+		@include le-lg {
+			display: none;
+		}
+	}
 
-    top: 1em;
-    left: 2em;
+	.content {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		height: 230px;
 
-    .text {
-      display: flex;
-      flex-direction: column;
-      color: white;
-      text-align: center;
-      text-shadow: 1px 1px 3px black;
-      align-self: center;
+		top: 1em;
+		left: 2em;
 
-      .title {
-        font-family: $header-font;
-        font-weight: 600;
-        font-size: 4.5em;
-        text-transform: uppercase;
-      }
+		.text {
+			display: flex;
+			flex-direction: column;
+			color: white;
+			text-align: center;
+			text-shadow: 1px 1px 3px black;
+			align-self: center;
 
-      .subtitle {
-        font-family: $body-font;
-        font-size: 2.45em;
-      }
-    }
+			.title {
+				font-family: $header-font;
+				font-weight: 600;
+				font-size: 4.5em;
+				text-transform: uppercase;
+			}
 
-    .logo {
-      position: relative;
-      left: -20px;
-      top: -9px;
-      max-width: 100%;
-      height: auto;
-      filter: drop-shadow(1px 1px 1.5px black);
-    }
+			.subtitle {
+				font-family: $body-font;
+				font-size: 2.45em;
+			}
+		}
 
-    @include le-lg {
-      .text {
-        .title {
-          font-size: 3em;
-        }
-        .subtitle {
-          font-size: 2em;
-        }
-      }
-      .logo {
-        height: 200px;
-        left: -40px;
-      }
-    }
-  }
+		.logo {
+			position: relative;
+			left: -20px;
+			top: -9px;
+			max-width: 100%;
+			height: auto;
+			filter: drop-shadow(1px 1px 1.5px black);
+		}
+
+		@include le-lg {
+			.text {
+				.title {
+					font-size: 3em;
+				}
+				.subtitle {
+					font-size: 2em;
+				}
+			}
+			.logo {
+				height: 200px;
+				left: -40px;
+			}
+		}
+	}
 }
