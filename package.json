@@ -18,7 +18,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "anchorate": "^1.2.3",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "firebase": "^7.2.2",
     "formik": "^2.0.1",
     "gatsby": "^2.15.19",
